@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660050037196,50,RegisterDevice,201,Created,Thread Group 1-1,text,true,,500,476,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts,47,0,30
+1660050037302,2307,CreateAccount,201,Created,Thread Group 1-1,text,true,,253,657,1,1,http://10.10.78.197:4000/accounts/api/v1/register,2307,0,0
+1660050039610,798,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,239,516,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,798,0,0
+1660050040411,1796,VerifyOTP,201,Created,Thread Group 1-1,text,true,,253,601,1,1,http://10.10.78.197:4000/accounts/api/v1/verify,1796,0,0
+1660050042209,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/1.png (No such file or directory),Thread Group 1-1,text,false,Test failed: code expected to contain /201/,1372,0,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts/init,0,0,0
+1660050042223,383,GetRequestedOTP,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,285,261,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,383,0,0
+1660050042611,2,ResetOTP,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,285,267,1,1,http://10.10.78.197:4000/accounts/api/v1/reset_otp,2,0,0
+1660050042617,3,UserName,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,285,289,1,1,http://10.10.78.197:4000/accounts/api/v1/suggestions/username?name=sonia,3,0,0
