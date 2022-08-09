@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660061243933,44,RegisterDevice,201,Created,Thread Group 1-1,text,true,,500,476,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts,41,0,27
+1660061244029,2178,CreateAccount,201,Created,Thread Group 1-1,text,true,,253,657,1,1,http://10.10.78.197:4000/accounts/api/v1/register,2178,0,0
+1660061246208,807,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,239,516,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,807,0,0
+1660061247020,1687,VerifyOTP,201,Created,Thread Group 1-1,text,true,,253,601,1,1,http://10.10.78.197:4000/accounts/api/v1/verify,1687,0,0
+1660061248710,2788,Initv1,201,Created,Thread Group 1-1,text,true,,695,0,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts/init,2787,0,0
+1660061251503,6,GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,239,610,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,6,0,0
+1660061251512,3898,ResetOTP,200,OK,Thread Group 1-1,text,true,,239,616,1,1,http://10.10.78.197:4000/accounts/api/v1/reset_otp,3898,0,0
+1660061260413,893,UserName,200,OK,Thread Group 1-1,text,true,,292,638,1,1,http://10.10.78.197:4000/accounts/api/v1/suggestions/username?name=sonia,893,0,6
