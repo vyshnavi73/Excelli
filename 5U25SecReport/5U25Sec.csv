@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660051928433,43,RegisterDevice,201,Created,Thread Group 1-1,text,true,,500,476,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts,41,0,28
+1660051928533,2084,CreateAccount,201,Created,Thread Group 1-1,text,true,,253,657,1,1,http://10.10.78.197:4000/accounts/api/v1/register,2084,0,0
+1660051930617,1002,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,239,516,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,1002,0,0
+1660051931624,1790,VerifyOTP,201,Created,Thread Group 1-1,text,true,,253,601,1,1,http://10.10.78.197:4000/accounts/api/v1/verify,1790,0,0
+1660051933416,2326,Initv1,201,Created,Thread Group 1-1,text,true,,695,0,1,1,http://10.10.78.197:4000/accounts/api/v1/accounts/init,2325,0,0
+1660051935756,15,GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,239,610,1,1,http://10.10.78.197:4000/accounts/api/v1/otp,15,0,0
+1660051935773,4240,ResetOTP,200,OK,Thread Group 1-1,text,true,,239,616,1,1,http://10.10.78.197:4000/accounts/api/v1/reset_otp,4240,0,0
+1660051940016,95,UserName,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 10.10.78.197:4000 failed to respond,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,2070,0,1,1,http://10.10.78.197:4000/accounts/api/v1/suggestions/username?name=sonia,0,0,0
