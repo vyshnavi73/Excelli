@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660128900146,426,RegisterDevice,201,Created,Thread Group 1-1,text,true,,1027,483,3,3,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,424,0,377
+1660128905041,72,RegisterDevice,201,Created,Thread Group 1-2,text,true,,1021,483,4,4,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,72,0,27
+1660128907623,222,CreateAccount,201,Created,Thread Group 1-1,text,true,,774,664,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/register,222,0,0
+1660128910028,50,RegisterDevice,201,Created,Thread Group 1-3,text,true,,1029,483,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,50,0,23
+1660128912117,193,CreateAccount,201,Created,Thread Group 1-2,text,true,,782,664,6,6,https://accounts.bigsuperapp.com/accounts/api/v1/register,193,0,0
+1660128915015,63,RegisterDevice,201,Created,Thread Group 1-4,text,true,,1019,483,6,6,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,63,0,23
+1660128917099,174,CreateAccount,201,Created,Thread Group 1-3,text,true,,776,664,7,7,https://accounts.bigsuperapp.com/accounts/api/v1/register,174,0,0
+1660128920011,53,RegisterDevice,201,Created,Thread Group 1-5,text,true,,1021,483,7,7,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,53,0,17
+1660128921847,40,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-1,text,true,,758,523,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/otp,40,0,0
+1660128922082,215,CreateAccount,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,830,664,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/register,215,0,0
+1660128925009,47,RegisterDevice,201,Created,Thread Group 1-6,text,true,,1027,483,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,47,0,17
+1660128926311,25,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-2,text,true,,764,523,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/otp,25,0,0
+1660128927065,529,CreateAccount,201,Created,Thread Group 1-5,text,true,,778,664,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/register,529,0,0
+1660128928889,115,VerifyOTP,201,Created,Thread Group 1-1,text,true,,782,608,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/verify,115,0,0
+1660128930017,96,RegisterDevice,201,Created,Thread Group 1-7,text,true,,1033,483,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,96,0,26
+1660128932059,337,CreateAccount,201,Created,Thread Group 1-6,text,true,,774,664,10,10,https://accounts.bigsuperapp.com/accounts/api/v1/register,337,0,0
+1660128931273,2436,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-3,text,true,,772,523,10,10,https://accounts.bigsuperapp.com/accounts/api/v1/otp,2436,0,0
+1660128935016,785,RegisterDevice,201,Created,Thread Group 1-8,text,true,,1023,483,10,10,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,785,0,28
+1660128936007,30,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-1,text,false,Test failed: code expected to contain /201/,1372,0,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128933339,3967,VerifyOTP,201,Created,Thread Group 1-2,text,true,,786,608,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/verify,3967,0,0
+1660128937121,375,CreateAccount,201,Created,Thread Group 1-7,text,true,,774,664,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/register,375,0,0
+1660128936298,3795,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-4,text,true,,764,523,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3795,0,0
+1660128940712,86,VerifyOTP,201,Created,Thread Group 1-3,text,true,,778,608,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/verify,86,0,0
+1660128941595,100,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-5,text,true,,760,523,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/otp,100,0,0
+1660128940013,2088,RegisterDevice,201,Created,Thread Group 1-9,text,true,,1027,483,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,2087,0,17
+1660128944307,15,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-2,text,false,Test failed: code expected to contain /201/,1372,0,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128942803,2004,CreateAccount,201,Created,Thread Group 1-8,text,true,,778,664,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/register,2004,0,0
+1660128945014,84,RegisterDevice,201,Created,Thread Group 1-10,text,true,,1019,483,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,84,0,16
+1660128943041,2970,GetRequestedOTP,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,816,268,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/otp,2970,0,0
+1660128946397,100,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-6,text,true,,764,523,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/otp,100,0,0
+1660128947798,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-3,text,false,Test failed: code expected to contain /201/,1372,0,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128948697,926,VerifyOTP,201,Created,Thread Group 1-5,text,true,,782,608,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/verify,926,0,0
+1660128949102,526,CreateAccount,201,Created,Thread Group 1-9,text,true,,786,664,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/register,526,0,0
+1660128947095,3723,VerifyOTP,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,816,604,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/verify,3723,0,0
+1660128951327,69,GetRequestedOTP,403,Forbidden,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,810,268,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,69,0,0
+1660128951498,105,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-7,text,true,,762,523,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,104,0,0
+1660128952101,397,CreateAccount,201,Created,Thread Group 1-10,text,true,,778,664,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/register,397,0,0
+1660128954813,88,GetRequestedOTP,403,Forbidden,Thread Group 1-3,text,false,Test failed: code expected to contain /200/,814,268,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,88,0,0
+1660128955016,86,RegisterDevice,201,Created,Thread Group 1-12,text,true,,1033,483,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,86,0,13
+1660128950015,5391,RegisterDevice,201,Created,Thread Group 1-11,text,true,,1029,483,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,5391,0,16
+1660128956625,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-5,text,false,Test failed: code expected to contain /201/,1372,0,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128953500,4310,VerifyOTP,201,Created,Thread Group 1-6,text,true,,780,608,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/verify,4310,0,0
+1660128957820,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-4,text,false,Test failed: code expected to contain /201/,1372,0,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128953014,5586,ResetOTP,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,810,274,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5586,0,0
+1660128958604,111,VerifyOTP,201,Created,Thread Group 1-7,text,true,,782,608,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/verify,111,0,0
+1660128958809,89,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-8,text,true,,764,523,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/otp,89,0,0
+1660128958398,1517,ResetOTP,403,Forbidden,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,816,274,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1517,0,0
+1660128962105,491,CreateAccount,201,Created,Thread Group 1-12,text,true,,778,664,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/register,491,0,0
+1660128962408,387,CreateAccount,201,Created,Thread Group 1-11,text,true,,786,664,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/register,387,0,0
+1660128960020,4284,RegisterDevice,201,Created,Thread Group 1-13,text,true,,1025,483,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,4284,0,37
+1660128961902,2697,ResetOTP,403,Forbidden,Thread Group 1-3,text,false,Test failed: code expected to contain /200/,806,274,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2697,0,0
+1660128964810,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-6,text,false,Test failed: code expected to contain /201/,1372,0,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128964832,60,GetRequestedOTP,403,Forbidden,Thread Group 1-4,text,false,Test failed: code expected to contain /200/,814,268,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/otp,60,0,0
+1660128965018,84,RegisterDevice,201,Created,Thread Group 1-14,text,true,,1027,483,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,84,0,14
+1660128965715,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-7,text,false,Test failed: code expected to contain /201/,1372,0,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128965899,125,VerifyOTP,201,Created,Thread Group 1-8,text,true,,774,608,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/verify,125,0,0
+1660128966498,303,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-10,text,true,,762,523,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/otp,303,0,0
+1660128973025,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-8,text,false,Test failed: code expected to contain /201/,1372,0,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128973803,97,VerifyOTP,201,Created,Thread Group 1-10,text,true,,782,608,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/verify,97,0,0
+1660128963639,12764,GetRequestedOTP,403,Forbidden,Thread Group 1-5,text,false,Test failed: code expected to contain /200/,806,268,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/otp,12764,0,0
+1660128976598,104,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-12,text,true,,764,523,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/otp,104,0,0
+1660128963629,13871,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-9,text,true,,764,523,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13871,0,0
+1660128980010,89,RegisterDevice,201,Created,Thread Group 1-17,text,true,,1023,483,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,89,0,27
+1660128980901,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-10,text,false,Test failed: code expected to contain /201/,1372,0,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128980039,1563,GetRequestedOTP,403,Forbidden,Thread Group 1-8,text,false,Test failed: code expected to contain /200/,810,268,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1563,0,0
+1660128983405,89,ResetOTP,403,Forbidden,Thread Group 1-5,text,false,Test failed: code expected to contain /200/,808,274,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,89,0,13
+1660128983703,103,VerifyOTP,201,Created,Thread Group 1-12,text,true,,776,608,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/verify,103,0,0
+1660128985014,86,RegisterDevice,201,Created,Thread Group 1-18,text,true,,1021,483,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,86,0,15
+1660128987101,497,CreateAccount,201,Created,Thread Group 1-17,text,true,,780,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,497,0,0
+1660128965601,23299,UserName,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,814,296,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,23299,0,26
+1660128990016,88,RegisterDevice,201,Created,Thread Group 1-19,text,true,,1033,483,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,88,0,17
+1660128990806,15,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-12,text,false,Test failed: code expected to contain /201/,1372,0,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128992102,393,CreateAccount,201,Created,Thread Group 1-18,text,true,,788,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,393,0,0
+1660128966916,26488,UserName,403,Forbidden,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,806,296,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,26488,0,13
+1660128995012,87,RegisterDevice,201,Created,Thread Group 1-20,text,true,,1025,483,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,87,0,14
+1660128971305,26301,CreateAccount,201,Created,Thread Group 1-13,text,true,,780,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,26300,0,0
+1660128972727,24969,GetRequestedOTP,403,Forbidden,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,814,268,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/otp,24969,0,0
+1660128971824,25876,GetRequestedOTP,403,Forbidden,Thread Group 1-6,text,false,Test failed: code expected to contain /200/,816,268,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/otp,25876,0,0
+1660128972104,25720,CreateAccount,201,Created,Thread Group 1-14,text,true,,782,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,25720,0,0
+1660128971894,26004,ResetOTP,403,Forbidden,Thread Group 1-4,text,false,Test failed: code expected to contain /200/,812,274,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,26004,0,0
+1660128970013,27887,RegisterDevice,201,Created,Thread Group 1-15,text,true,,1025,483,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,27887,0,15
+1660128971601,26312,UserName,403,Forbidden,Thread Group 1-3,text,false,Test failed: code expected to contain /200/,812,296,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,26312,0,21
+1660129000010,595,RegisterDevice,201,Created,Thread Group 1-21,text,true,,1031,483,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,595,0,18
+1660129002101,308,CreateAccount,201,Created,Thread Group 1-20,text,true,,782,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,307,0,0
+1660128997823,4780,GetRequestedOTP,403,Forbidden,Thread Group 1-12,text,false,Test failed: code expected to contain /200/,812,268,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4779,0,0
+1660128975010,29400,RegisterDevice,201,Created,Thread Group 1-16,text,true,,1025,483,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,29400,0,17
+1660129004702,95,ResetOTP,403,Forbidden,Thread Group 1-6,text,false,Test failed: code expected to contain /200/,814,274,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,95,0,18
+1660129004900,96,UserName,403,Forbidden,Thread Group 1-4,text,false,Test failed: code expected to contain /200/,818,296,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,96,0,17
+1660129005007,97,RegisterDevice,201,Created,Thread Group 1-22,text,true,,1023,483,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,97,0,14
+1660129004698,907,ResetOTP,403,Forbidden,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,816,274,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,907,0,23
+1660129006496,100,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-18,text,true,,770,523,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/otp,100,0,0
+1660128976796,29904,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-11,text,true,,764,523,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/otp,29904,0,0
+1660129007606,304,CreateAccount,201,Created,Thread Group 1-21,text,true,,784,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,304,0,0
+1660129004901,4200,CreateAccount,201,Created,Thread Group 1-15,text,true,,780,664,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/register,4200,0,0
+1660129011411,383,CreateAccount,201,Created,Thread Group 1-16,text,true,,780,664,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/register,383,0,0
+1660128984501,27519,VerifyOTP,201,Created,Thread Group 1-9,text,true,,780,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,27519,0,0
+1660129012106,615,CreateAccount,201,Created,Thread Group 1-22,text,true,,782,664,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/register,614,0,0
+1660128988605,24591,ResetOTP,403,Forbidden,Thread Group 1-8,text,false,Test failed: code expected to contain /200/,814,274,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,24591,0,0
+1660129013598,106,VerifyOTP,201,Created,Thread Group 1-18,text,true,,780,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,106,0,0
+1660129013702,100,VerifyOTP,201,Created,Thread Group 1-11,text,true,,774,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,100,0,13
+1660128987917,27005,GetRequestedOTP,403,Forbidden,Thread Group 1-10,text,false,Test failed: code expected to contain /200/,816,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,27005,0,0
+1660128990495,26704,UserName,403,Forbidden,Thread Group 1-5,text,false,Test failed: code expected to contain /200/,804,296,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,26704,0,0
+1660129019021,13,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-9,text,false,Test failed: code expected to contain /201/,1372,0,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129020018,82,RegisterDevice,201,Created,Thread Group 1-25,text,true,,1025,483,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,82,0,15
+1660129020705,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-18,text,false,Test failed: code expected to contain /201/,1372,0,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129020803,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-11,text,false,Test failed: code expected to contain /201/,1372,0,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660128997106,23794,CreateAccount,201,Created,Thread Group 1-19,text,true,,780,664,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/register,23794,0,0
+1660129021922,73,ResetOTP,403,Forbidden,Thread Group 1-10,text,false,Test failed: code expected to contain /200/,810,274,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,73,0,11
+1660129023102,96,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-15,text,true,,768,523,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/otp,95,0,0
+1660129021911,1292,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-21,text,true,,758,523,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1292,0,0
+1660129025008,97,RegisterDevice,201,Created,Thread Group 1-26,text,true,,1021,483,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,97,0,28
+1660129001598,24420,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-17,text,true,,764,523,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,24420,0,0
+1660129027102,496,CreateAccount,201,Created,Thread Group 1-25,text,true,,776,664,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/register,496,0,0
+1660129026721,1917,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-22,text,true,,766,523,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1917,0,0
+1660129011824,17378,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-14,text,true,,768,523,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,17378,0,0
+1660129030205,100,VerifyOTP,201,Created,Thread Group 1-21,text,true,,778,608,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/verify,100,0,0
+1660129012607,19790,UserName,403,Forbidden,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,814,296,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,19790,0,0
+1660129011606,20992,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-13,text,true,,762,523,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,20992,0,0
+1660129010007,24191,RegisterDevice,201,Created,Thread Group 1-23,text,true,,1035,483,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24191,0,26
+1660129035007,103,RegisterDevice,201,Created,Thread Group 1-28,text,true,,1033,483,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,103,0,20
+1660129035640,63,VerifyOTP,201,Created,Thread Group 1-22,text,true,,776,608,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/verify,63,0,0
+1660129009604,26803,ResetOTP,403,Forbidden,Thread Group 1-12,text,false,Test failed: code expected to contain /200/,810,274,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,26803,0,0
+1660129037305,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-21,text,false,Test failed: code expected to contain /201/,1372,0,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129034901,4805,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-19,text,true,,764,523,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4805,0,0
+1660129040009,91,RegisterDevice,201,Created,Thread Group 1-29,text,true,,1035,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,91,0,11
+1660129041599,102,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-25,text,true,,764,523,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,102,0,0
+1660129011799,30707,UserName,403,Forbidden,Thread Group 1-6,text,false,Test failed: code expected to contain /200/,808,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,30707,0,0
+1660129033019,9505,VerifyOTP,201,Created,Thread Group 1-17,text,true,,780,608,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9505,0,0
+1660129042703,16,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-22,text,false,Test failed: code expected to contain /201/,1372,0,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129030009,12796,RegisterDevice,201,Created,Thread Group 1-27,text,true,,1027,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,12796,0,12
+1660129016410,26998,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-20,text,true,,766,523,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/otp,26997,0,0
+1660129045006,98,RegisterDevice,201,Created,Thread Group 1-30,text,true,,1025,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,98,0,11
+1660129015013,30394,RegisterDevice,201,Created,Thread Group 1-24,text,true,,1021,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,30394,0,15
+1660129027814,17710,GetRequestedOTP,403,Forbidden,Thread Group 1-11,text,false,Test failed: code expected to contain /200/,812,268,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/otp,17710,0,0
+1660129046708,412,VerifyOTP,201,Created,Thread Group 1-19,text,true,,778,608,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/verify,412,0,0
+1660129047103,396,CreateAccount,201,Created,Thread Group 1-29,text,true,,780,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,396,0,0
+1660129043409,5687,UserName,403,Forbidden,Thread Group 1-12,text,false,Test failed: code expected to contain /200/,812,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5687,0,13
+1660129049527,33,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-17,text,false,Test failed: code expected to contain /201/,1372,0,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129049808,312,CreateAccount,201,Created,Thread Group 1-27,text,true,,774,664,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/register,312,0,0
+1660129052526,68,ResetOTP,403,Forbidden,Thread Group 1-11,text,false,Test failed: code expected to contain /200/,806,274,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,68,0,0
+1660129054120,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-19,text,false,Test failed: code expected to contain /201/,1372,0,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129020197,34311,UserName,403,Forbidden,Thread Group 1-8,text,false,Test failed: code expected to contain /200/,814,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,34311,0,15
+1660129055015,88,RegisterDevice,201,Created,Thread Group 1-32,text,true,,1027,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,88,0,12
+1660129025795,31729,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-16,text,true,,766,523,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,31729,0,0
+1660129026036,33373,GetRequestedOTP,403,Forbidden,Thread Group 1-9,text,false,Test failed: code expected to contain /200/,808,268,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,33373,0,19
+1660129059595,103,UserName,403,Forbidden,Thread Group 1-11,text,false,Test failed: code expected to contain /200/,810,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,103,0,0
+1660129060014,108,RegisterDevice,201,Created,Thread Group 1-33,text,true,,1027,483,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,108,0,11
+1660129027717,34376,GetRequestedOTP,403,Forbidden,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,808,268,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,34376,0,0
+1660129062103,494,CreateAccount,201,Created,Thread Group 1-32,text,true,,772,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,494,0,0
+1660129061131,2473,GetRequestedOTP,403,Forbidden,Thread Group 1-19,text,false,Test failed: code expected to contain /200/,808,268,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,2473,0,13
+1660129064121,76,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-27,text,true,,758,523,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,76,0,0
+1660129030199,34516,VerifyOTP,201,Created,Thread Group 1-15,text,true,,774,608,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/verify,34516,0,18
+1660129028999,36314,UserName,403,Forbidden,Thread Group 1-10,text,false,Test failed: code expected to contain /200/,804,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,36314,0,0
+1660129067123,274,CreateAccount,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,832,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,274,0,0
+1660129052107,16811,CreateAccount,201,Created,Thread Group 1-30,text,true,,778,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,16810,0,0
+1660129066410,2708,ResetOTP,403,Forbidden,Thread Group 1-9,text,false,Test failed: code expected to contain /200/,816,274,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2708,0,0
+1660129069095,103,ResetOTP,403,Forbidden,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,808,274,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,103,0,12
+1660129032106,37101,CreateAccount,201,Created,Thread Group 1-26,text,true,,780,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,37101,0,0
+1660129070606,105,ResetOTP,403,Forbidden,Thread Group 1-19,text,false,Test failed: code expected to contain /200/,808,274,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,104,0,0
+1660129071198,112,VerifyOTP,201,Created,Thread Group 1-27,text,true,,776,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,112,0,0
+1660129071715,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-15,text,false,Test failed: code expected to contain /201/,1372,0,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129044315,28494,GetRequestedOTP,403,Forbidden,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,808,268,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,28494,0,0
+1660129041200,33702,CreateAccount,201,Created,Thread Group 1-23,text,true,,774,664,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/register,33702,0,0
+1660129039599,35422,VerifyOTP,201,Created,Thread Group 1-13,text,true,,784,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,35422,0,13
+1660129075018,91,RegisterDevice,201,Created,Thread Group 1-36,text,true,,1027,483,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,91,0,12
+1660129036204,39393,VerifyOTP,201,Created,Thread Group 1-14,text,true,,788,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,39392,0,12
+1660129078311,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-27,text,false,Test failed: code expected to contain /201/,1372,0,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129078731,68,GetRequestedOTP,403,Forbidden,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,810,268,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp,68,0,0
+1660129077713,1902,UserName,403,Forbidden,Thread Group 1-19,text,false,Test failed: code expected to contain /200/,808,296,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1902,0,0
+1660129079811,85,ResetOTP,403,Forbidden,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,814,274,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,85,0,14
+1660129080007,96,RegisterDevice,201,Created,Thread Group 1-37,text,true,,1031,483,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,96,0,12
+1660129042112,38002,CreateAccount,201,Created,Thread Group 1-28,text,true,,778,664,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/register,38002,0,0
+1660129052410,28711,CreateAccount,201,Created,Thread Group 1-24,text,true,,786,664,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/register,28711,0,0
+1660129076201,5042,UserName,403,Forbidden,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,810,296,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5042,0,0
+1660129081399,505,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-33,text,true,,768,523,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,505,0,0
+1660129082023,17,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-13,text,false,Test failed: code expected to contain /201/,1372,0,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129082598,20,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-14,text,false,Test failed: code expected to contain /201/,1372,0,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129082918,85,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-30,text,true,,766,523,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,85,0,0
+1660129083209,91,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-26,text,true,,766,523,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,91,0,0
+1660129050012,34699,RegisterDevice,201,Created,Thread Group 1-31,text,true,,1027,483,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,34699,0,27
+1660129048704,37710,VerifyOTP,201,Created,Thread Group 1-25,text,true,,776,608,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/verify,37710,0,0
+1660129086896,97,UserName,403,Forbidden,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,812,296,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,97,0,0
+1660129049722,37493,GetRequestedOTP,403,Forbidden,Thread Group 1-22,text,false,Test failed: code expected to contain /200/,820,268,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,37492,0,0
+1660129087104,1601,CreateAccount,201,Created,Thread Group 1-37,text,true,,786,664,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/register,1601,0,0
+1660129088904,99,VerifyOTP,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,812,604,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,99,0,0
+1660129085321,4579,GetRequestedOTP,403,Forbidden,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,808,268,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4579,0,0
+1660129050409,39596,VerifyOTP,201,Created,Thread Group 1-20,text,true,,780,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,39596,0,0
+1660129090012,90,RegisterDevice,201,Created,Thread Group 1-39,text,true,,1021,483,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,90,0,14
+1660129090003,305,VerifyOTP,201,Created,Thread Group 1-30,text,true,,776,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,305,0,0
+1660129070010,21988,RegisterDevice,201,Created,Thread Group 1-35,text,true,,1031,483,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,21988,0,19
+1660129089042,3262,GetRequestedOTP,403,Forbidden,Thread Group 1-13,text,false,Test failed: code expected to contain /200/,810,268,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3262,0,0
+1660129093414,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-25,text,false,Test failed: code expected to contain /201/,1372,0,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129056561,37454,GetRequestedOTP,403,Forbidden,Thread Group 1-17,text,false,Test failed: code expected to contain /200/,814,268,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp,37454,0,14
+1660129094115,82,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-28,text,true,,770,523,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp,82,0,0
+1660129095005,103,RegisterDevice,201,Created,Thread Group 1-40,text,true,,1025,483,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,103,0,15
+1660129095120,77,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-24,text,true,,770,523,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp,77,0,10
+1660129096004,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-33,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129097005,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-20,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129097309,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-30,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129061498,36729,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-29,text,true,,758,523,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/otp,36729,0,0
+1660129099000,596,CreateAccount,201,Created,Thread Group 1-35,text,true,,774,664,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/register,596,0,0
+1660129100012,86,RegisterDevice,201,Created,Thread Group 1-41,text,true,,1023,483,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,86,0,12
+1660129065015,35283,RegisterDevice,201,Created,Thread Group 1-34,text,true,,1031,483,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,35283,0,15
+1660129101198,121,VerifyOTP,201,Created,Thread Group 1-28,text,true,,780,608,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/verify,121,0,11
+1660129064525,37382,VerifyOTP,201,Created,Thread Group 1-16,text,true,,784,608,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/verify,37382,0,14
+1660129102109,384,CreateAccount,201,Created,Thread Group 1-40,text,true,,778,664,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/register,384,0,0
+1660129101016,1694,ResetOTP,403,Forbidden,Thread Group 1-17,text,false,Test failed: code expected to contain /200/,810,274,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1694,0,0
+1660129103018,75,GetRequestedOTP,403,Forbidden,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,812,268,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/otp,75,0,0
+1660129104018,87,GetRequestedOTP,403,Forbidden,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,808,268,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/otp,87,0,12
+1660129104322,72,GetRequestedOTP,403,Forbidden,Thread Group 1-30,text,false,Test failed: code expected to contain /200/,814,268,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/otp,72,0,0
+1660129105006,91,RegisterDevice,201,Created,Thread Group 1-42,text,true,,1023,483,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,91,0,17
+1660129107301,308,CreateAccount,201,Created,Thread Group 1-34,text,true,,778,664,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/register,308,0,0
+1660129099305,8501,ResetOTP,403,Forbidden,Thread Group 1-13,text,false,Test failed: code expected to contain /200/,816,274,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,8501,0,0
+1660129108320,11,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-28,text,false,Test failed: code expected to contain /201/,1372,0,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129108909,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-16,text,false,Test failed: code expected to contain /201/,1372,0,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129076599,32823,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-32,text,true,,768,523,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/otp,32823,0,0
+1660129110096,102,ResetOTP,403,Forbidden,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,814,274,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,102,0,0
+1660129111107,91,ResetOTP,403,Forbidden,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,804,274,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,91,0,0
+1660129115007,96,RegisterDevice,201,Created,Thread Group 1-44,text,true,,1027,483,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,96,0,16
+1660129076120,38990,UserName,403,Forbidden,Thread Group 1-9,text,false,Test failed: code expected to contain /200/,810,296,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,38990,0,0
+1660129117199,95,UserName,403,Forbidden,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,816,296,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,95,0,0
+1660129118198,100,UserName,403,Forbidden,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,806,296,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,100,0,0
+1660129120014,82,RegisterDevice,201,Created,Thread Group 1-45,text,true,,1033,483,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,82,0,11
+1660129122103,510,CreateAccount,201,Created,Thread Group 1-44,text,true,,784,664,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/register,510,0,0
+1660129089619,34491,GetRequestedOTP,403,Forbidden,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,814,268,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/otp,34491,0,0
+1660129127098,309,CreateAccount,201,Created,Thread Group 1-45,text,true,,780,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,309,0,0
+1660129082111,45992,CreateAccount,502,Bad Gateway,Thread Group 1-36,text,false,Test failed: code expected to contain /201/,1165,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,45991,0,0
+1660129085014,44622,RegisterDevice,201,Created,Thread Group 1-38,text,true,,1021,483,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,44622,0,15
+1660129085799,44403,ResetOTP,403,Forbidden,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,806,274,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,44403,0,0
+1660129131112,86,ResetOTP,403,Forbidden,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,810,274,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,86,0,14
+1660129135011,109,RegisterDevice,201,Created,Thread Group 1-48,text,true,,1023,483,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,109,0,10
+1660129136614,88,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-44,text,true,,766,523,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/otp,88,0,0
+1660129088903,48208,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-23,text,true,,770,523,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/otp,48208,0,11
+1660129136636,579,CreateAccount,201,Created,Thread Group 1-38,text,true,,774,664,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/register,579,0,0
+1660129137204,2199,UserName,403,Forbidden,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,806,296,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2199,0,19
+1660129140017,81,RegisterDevice,201,Created,Thread Group 1-49,text,true,,1021,483,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,81,0,11
+1660129090300,50810,VerifyOTP,201,Created,Thread Group 1-26,text,true,,782,608,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/verify,50810,0,10
+1660129091711,49493,CreateAccount,201,Created,Thread Group 1-31,text,true,,778,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,49493,0,0
+1660129142122,306,CreateAccount,201,Created,Thread Group 1-48,text,true,,776,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,306,0,0
+1660129145003,107,RegisterDevice,201,Created,Thread Group 1-50,text,true,,1027,483,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,107,0,14
+1660129148110,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-26,text,false,Test failed: code expected to contain /201/,1372,0,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129094215,54786,ResetOTP,403,Forbidden,Thread Group 1-22,text,false,Test failed: code expected to contain /200/,818,274,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,54786,0,14
+1660129097103,53112,CreateAccount,201,Created,Thread Group 1-39,text,true,,774,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,53112,0,0
+1660129096902,53406,ResetOTP,403,Forbidden,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,806,274,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,53406,0,8
+1660129151216,96,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-38,text,true,,760,523,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,96,0,18
+1660129152110,386,CreateAccount,201,Created,Thread Group 1-50,text,true,,776,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,386,0,0
+1660129155205,98,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-31,text,true,,766,523,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,98,0,17
+1660129156427,72,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-48,text,true,,760,523,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,72,0,0
+1660129102199,55399,VerifyOTP,201,Created,Thread Group 1-24,text,true,,780,608,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/verify,55399,0,0
+1660129100424,58688,GetRequestedOTP,403,Forbidden,Thread Group 1-25,text,false,Test failed: code expected to contain /200/,816,268,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,58688,0,16
+1660129107100,53612,CreateAccount,201,Created,Thread Group 1-41,text,true,,780,664,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/register,53612,0,0
+1660129158314,4090,VerifyOTP,201,Created,Thread Group 1-38,text,true,,778,608,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/verify,4090,0,0
+1660129102706,59907,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-37,text,true,,762,523,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,59907,0,0
+1660129163500,105,VerifyOTP,201,Created,Thread Group 1-48,text,true,,774,608,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/verify,105,0,0
+1660129164598,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-24,text,false,Test failed: code expected to contain /201/,1372,0,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129105229,60050,VerifyOTP,504,Gateway Timeout,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,1183,608,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/verify,60049,0,9
+1660129166497,103,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-50,text,true,,776,523,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/otp,103,0,0
+1660129169405,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-38,text,false,Test failed: code expected to contain /201/,1372,0,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129109713,60026,UserName,504,Gateway Timeout,Thread Group 1-17,text,false,Test failed: code expected to contain /200/,1193,296,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,60026,0,0
+1660129110008,60040,RegisterDevice,504,Gateway Timeout,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,1181,483,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,60039,0,17
+1660129170607,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-48,text,false,Test failed: code expected to contain /201/,1372,0,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129111397,60046,ResetOTP,504,Gateway Timeout,Thread Group 1-30,text,false,Test failed: code expected to contain /200/,1181,274,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,60046,0,11
+1660129113598,57939,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-35,text,true,,762,523,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/otp,57939,0,0
+1660129115919,55696,GetRequestedOTP,403,Forbidden,Thread Group 1-16,text,false,Test failed: code expected to contain /200/,810,268,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/otp,55696,0,0
+1660129115332,56371,GetRequestedOTP,403,Forbidden,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,806,268,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/otp,56371,0,0
+1660129112100,59706,CreateAccount,201,Created,Thread Group 1-42,text,true,,776,664,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/register,59706,0,0
+1660129116423,55495,VerifyOTP,201,Created,Thread Group 1-32,text,true,,776,608,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/verify,55495,0,9
+1660129114808,57204,UserName,403,Forbidden,Thread Group 1-13,text,false,Test failed: code expected to contain /200/,816,296,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,57204,0,13
+1660129172279,13,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-29,text,false,Test failed: code expected to contain /201/,1372,0,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129173603,2910,VerifyOTP,201,Created,Thread Group 1-50,text,true,,782,608,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/verify,2910,0,0
+1660129116493,60029,CreatedAccount-GetRequestedOTP,504,Gateway Timeout,Thread Group 1-40,text,false,Test failed: code expected to contain /200/,1177,523,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/otp,60029,0,0
+1660129171613,6307,GetRequestedOTP,403,Forbidden,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,808,268,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/otp,6307,0,11
+1660129178444,60,UserName,403,Forbidden,Thread Group 1-30,text,false,Test failed: code expected to contain /200/,814,296,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,60,0,10
+1660129178920,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-32,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129179294,102,GetRequestedOTP,403,Forbidden,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,804,268,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/otp,102,0,15
+1660129121608,60020,CreatedAccount-GetRequestedOTP,504,Gateway Timeout,Thread Group 1-34,text,false,Test failed: code expected to contain /200/,1177,523,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/otp,60020,0,0
+1660129183513,7,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-50,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129183523,151,VerifyOTP,422,Unprocessable Entity,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,814,604,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/verify,151,0,14
+1660129184920,74,ResetOTP,403,Forbidden,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,810,274,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,74,0,0
+1660129125019,60085,RegisterDevice,504,Gateway Timeout,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,1175,483,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,60085,0,20
+1660129185806,95,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-42,text,true,,772,523,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/otp,95,0,15
+1660129186396,97,ResetOTP,403,Forbidden,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,812,274,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,96,0,0
+1660129188629,69,VerifyOTP,422,Unprocessable Entity,Thread Group 1-34,text,false,Test failed: code expected to contain /201/,822,604,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/verify,69,0,9
+1660129130009,59792,RegisterDevice,201,Created,Thread Group 1-47,text,true,,1033,483,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,59792,0,17
+1660129190522,72,GetRequestedOTP,403,Forbidden,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,810,268,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/otp,72,0,0
+1660129190675,10,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-40,text,false,Test failed: code expected to contain /201/,1372,0,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129191995,105,UserName,403,Forbidden,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,812,296,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,105,0,0
+1660129192105,96,CreateAccount,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,806,409,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/register,96,0,10
+1660129192902,117,VerifyOTP,201,Created,Thread Group 1-42,text,true,,778,608,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/verify,117,0,0
+1660129193494,19,UserName,403,Forbidden,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,806,296,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,19,0,0
+1660129195698,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-34,text,false,Test failed: code expected to contain /201/,1372,0,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129144114,52297,VerifyOTP,201,Created,Thread Group 1-23,text,true,,776,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/verify,52297,0,0
+1660129197595,100,ResetOTP,403,Forbidden,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,814,274,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,100,0,0
+1660129197687,112,GetRequestedOTP,403,Forbidden,Thread Group 1-40,text,false,Test failed: code expected to contain /200/,810,268,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/otp,112,0,0
+1660129138209,59594,UserName,403,Forbidden,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,808,296,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,59594,0,0
+1660129141409,56810,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-45,text,true,,768,523,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,56810,0,0
+1660129200019,15,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-42,text,false,Test failed: code expected to contain /201/,1372,0,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129142104,58306,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-36,text,true,,764,523,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,58306,0,10
+1660129202709,64,GetRequestedOTP,403,Forbidden,Thread Group 1-34,text,false,Test failed: code expected to contain /200/,812,268,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp,64,0,0
+1660129143704,59142,VerifyOTP,201,Created,Thread Group 1-44,text,true,,776,608,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/verify,59142,0,0
+1660129203411,14,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-23,text,false,Test failed: code expected to contain /201/,1372,0,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129196803,7334,CreateAccount,201,Created,Thread Group 1-47,text,true,,776,664,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/register,7334,0,12
+1660129204697,31,UserName,403,Forbidden,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,806,296,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,31,0,0
+1660129147100,57628,CreateAccount,201,Created,Thread Group 1-49,text,true,,778,664,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/register,57628,0,0
+1660129205220,79,VerifyOTP,201,Created,Thread Group 1-45,text,true,,784,608,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/verify,79,0,7
+1660129206202,22,CreatedAccount-GetRequestedOTP,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /200/,812,268,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/otp,22,0,0
+1660129156002,52413,UserName,403,Forbidden,Thread Group 1-22,text,false,Test failed: code expected to contain /200/,812,296,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,52413,0,10
+1660129155122,53975,GetRequestedOTP,403,Forbidden,Thread Group 1-26,text,false,Test failed: code expected to contain /200/,806,268,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,53975,0,10
+1660129209773,21,ResetOTP,403,Forbidden,Thread Group 1-34,text,false,Test failed: code expected to contain /200/,806,274,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,21,0,0
+1660129209846,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-44,text,false,Test failed: code expected to contain /201/,1372,0,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129210426,72,GetRequestedOTP,403,Forbidden,Thread Group 1-23,text,false,Test failed: code expected to contain /200/,808,268,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/otp,72,0,13
+1660129162305,48538,VerifyOTP,201,Created,Thread Group 1-31,text,true,,772,608,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/verify,48538,0,0
+1660129157309,53908,UserName,403,Forbidden,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,804,296,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,53908,0,21
+1660129166114,46001,ResetOTP,403,Forbidden,Thread Group 1-25,text,false,Test failed: code expected to contain /200/,804,274,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,46001,0,9
+1660129212300,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-45,text,false,Test failed: code expected to contain /201/,1372,0,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129213225,71,VerifyOTP,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,818,349,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/verify,71,0,0
+1660129164216,50681,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-39,text,true,,770,523,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/otp,50681,0,14
+1660129216099,209,ResetOTP,403,Forbidden,Thread Group 1-26,text,false,Test failed: code expected to contain /200/,810,274,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,209,0,76
+1660129216857,36,GetRequestedOTP,403,Forbidden,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,818,268,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/otp,36,0,12
+1660129216796,119,UserName,403,Forbidden,Thread Group 1-34,text,false,Test failed: code expected to contain /200/,814,296,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,119,0,0
+1660129169614,47707,VerifyOTP,201,Created,Thread Group 1-37,text,true,,780,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,47707,0,11
+1660129176419,40980,GetRequestedOTP,403,Forbidden,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,812,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,40980,0,0
+1660129174713,42690,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-41,text,true,,764,523,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,42690,0,6
+1660129178618,38876,ResetOTP,403,Forbidden,Thread Group 1-16,text,false,Test failed: code expected to contain /200/,812,274,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,38876,0,9
+1660129178706,38816,ResetOTP,403,Forbidden,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,812,274,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,38816,0,20
+1660129178538,39075,VerifyOTP,201,Created,Thread Group 1-35,text,true,,778,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,39075,0,7
+1660129177619,40089,GetRequestedOTP,403,Forbidden,Thread Group 1-48,text,false,Test failed: code expected to contain /200/,806,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,40089,0,0
+1660129217844,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-31,text,false,Test failed: code expected to contain /201/,1372,0,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129218138,66,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-47,text,true,,760,523,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,66,0,0
+1660129177050,41361,CreateAccount,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,812,409,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/register,41361,0,11
+1660129217499,1101,ResetOTP,403,Forbidden,Thread Group 1-23,text,false,Test failed: code expected to contain /200/,806,274,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1101,0,0
+1660129218729,69,CreatedAccount-GetRequestedOTP,200,OK,Thread Group 1-49,text,true,,762,523,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,69,0,16
+1660129219309,85,GetRequestedOTP,403,Forbidden,Thread Group 1-45,text,false,Test failed: code expected to contain /200/,812,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,85,0,0
+1660129220297,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-46,text,false,Test failed: code expected to contain /201/,1372,0,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129185930,34778,GetRequestedOTP,403,Forbidden,Thread Group 1-32,text,false,Test failed: code expected to contain /200/,806,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,34778,0,20
+1660129204802,17006,ResetOTP,403,Forbidden,Thread Group 1-40,text,false,Test failed: code expected to contain /200/,806,274,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,17006,0,0
+1660129221898,104,VerifyOTP,201,Created,Thread Group 1-39,text,true,,786,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,104,0,0
+1660129207410,15086,VerifyOTP,201,Created,Thread Group 1-36,text,true,,788,608,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15086,0,8
+1660129207036,16465,GetRequestedOTP,403,Forbidden,Thread Group 1-42,text,false,Test failed: code expected to contain /200/,806,268,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/otp,16465,0,0
+1660129223309,507,UserName,403,Forbidden,Thread Group 1-26,text,false,Test failed: code expected to contain /200/,806,296,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,507,0,0
+1660129224322,12,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-37,text,false,Test failed: code expected to contain /201/,1372,0,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129224399,97,ResetOTP,403,Forbidden,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,814,274,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,97,0,15
+1660129224403,99,VerifyOTP,201,Created,Thread Group 1-41,text,true,,782,608,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/verify,99,0,0
+1660129224522,72,UserName,403,Forbidden,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,808,296,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,72,0,0
+1660129224612,14,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-35,text,false,Test failed: code expected to contain /201/,1372,0,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129224708,91,ResetOTP,403,Forbidden,Thread Group 1-48,text,false,Test failed: code expected to contain /200/,814,274,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,91,0,17
+1660129224854,39,GetRequestedOTP,403,Forbidden,Thread Group 1-31,text,false,Test failed: code expected to contain /200/,814,268,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/otp,39,0,13
+1660129225205,103,VerifyOTP,201,Created,Thread Group 1-47,text,true,,780,608,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/verify,103,0,0
+1660129225602,93,UserName,403,Forbidden,Thread Group 1-23,text,false,Test failed: code expected to contain /200/,816,296,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,93,0,0
+1660129219116,6703,UserName,403,Forbidden,Thread Group 1-25,text,false,Test failed: code expected to contain /200/,810,296,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6703,0,0
+1660129223894,2404,ResetOTP,403,Forbidden,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,816,274,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2404,0,0
+1660129227710,84,ResetOTP,403,Forbidden,Thread Group 1-32,text,false,Test failed: code expected to contain /200/,808,274,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,84,0,0
+1660129228809,92,UserName,403,Forbidden,Thread Group 1-40,text,false,Test failed: code expected to contain /200/,808,296,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,92,0,0
+1660129229003,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-39,text,false,Test failed: code expected to contain /201/,1372,0,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129229496,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-36,text,false,Test failed: code expected to contain /201/,1372,0,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129231503,8,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-41,text,false,Test failed: code expected to contain /201/,1372,0,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129231499,99,UserName,403,Forbidden,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,812,296,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,99,0,0
+1660129231802,96,UserName,403,Forbidden,Thread Group 1-48,text,false,Test failed: code expected to contain /200/,812,296,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,96,0,0
+1660129231895,100,ResetOTP,403,Forbidden,Thread Group 1-31,text,false,Test failed: code expected to contain /200/,806,274,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,100,0,0
+1660129232309,13,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-47,text,false,Test failed: code expected to contain /201/,1372,0,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129232411,86,CreatedAccount-GetRequestedOTP,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /200/,806,268,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/otp,86,0,0
+1660129233301,100,UserName,403,Forbidden,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,822,296,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,100,0,0
+1660129236014,84,GetRequestedOTP,403,Forbidden,Thread Group 1-39,text,false,Test failed: code expected to contain /200/,818,268,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,84,0,14
+1660129236507,90,GetRequestedOTP,403,Forbidden,Thread Group 1-36,text,false,Test failed: code expected to contain /200/,818,268,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,90,0,0
+1660129238512,100,GetRequestedOTP,403,Forbidden,Thread Group 1-41,text,false,Test failed: code expected to contain /200/,812,268,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/otp,100,0,12
+1660129238995,101,UserName,403,Forbidden,Thread Group 1-31,text,false,Test failed: code expected to contain /200/,810,296,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,101,0,0
+1660129239323,71,GetRequestedOTP,403,Forbidden,Thread Group 1-47,text,false,Test failed: code expected to contain /200/,808,268,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/otp,71,0,0
+1660129239497,102,VerifyOTP,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,818,349,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/verify,102,0,9
+1660129224495,15702,UserName,403,Forbidden,Thread Group 1-16,text,false,Test failed: code expected to contain /200/,824,296,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,15702,0,0
+1660129225800,16626,VerifyOTP,201,Created,Thread Group 1-49,text,true,,776,608,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16626,0,0
+1660129243099,95,ResetOTP,403,Forbidden,Thread Group 1-39,text,false,Test failed: code expected to contain /200/,810,274,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,95,0,0
+1660129243599,407,ResetOTP,403,Forbidden,Thread Group 1-36,text,false,Test failed: code expected to contain /200/,808,274,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,407,0,0
+1660129230504,14225,ResetOTP,403,Forbidden,Thread Group 1-42,text,false,Test failed: code expected to contain /200/,812,274,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14225,0,0
+1660129234796,10004,UserName,403,Forbidden,Thread Group 1-32,text,false,Test failed: code expected to contain /200/,812,296,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,10004,0,0
+1660129231337,13468,GetRequestedOTP,403,Forbidden,Thread Group 1-37,text,false,Test failed: code expected to contain /200/,808,268,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13468,0,10
+1660129227308,17498,GetRequestedOTP,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /200/,810,268,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/otp,17498,0,0
+1660129226395,18500,ResetOTP,403,Forbidden,Thread Group 1-45,text,false,Test failed: code expected to contain /200/,814,274,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,18500,0,0
+1660129231629,13295,GetRequestedOTP,403,Forbidden,Thread Group 1-35,text,false,Test failed: code expected to contain /200/,812,268,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13295,0,0
+1660129245613,42,ResetOTP,403,Forbidden,Thread Group 1-41,text,false,Test failed: code expected to contain /200/,808,274,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,42,0,0
+1660129246395,18,ResetOTP,403,Forbidden,Thread Group 1-47,text,false,Test failed: code expected to contain /200/,816,274,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,18,0,0
+1660129246600,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-43,text,false,Test failed: code expected to contain /201/,1372,0,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129249426,9,Initv1,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: C:\Users\b2bte\Downloads\1.png (No such file or directory),Thread Group 1-49,text,false,Test failed: code expected to contain /201/,1372,0,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/accounts/init,0,0,0
+1660129250195,37,UserName,403,Forbidden,Thread Group 1-39,text,false,Test failed: code expected to contain /200/,812,296,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,37,0,0
+1660129251008,26,UserName,403,Forbidden,Thread Group 1-36,text,false,Test failed: code expected to contain /200/,812,296,10,10,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,26,0,0
+1660129251730,78,UserName,403,Forbidden,Thread Group 1-42,text,false,Test failed: code expected to contain /200/,802,296,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,78,0,13
+1660129251805,24,ResetOTP,403,Forbidden,Thread Group 1-37,text,false,Test failed: code expected to contain /200/,804,274,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,24,0,0
+1660129251807,27,ResetOTP,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /200/,808,274,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,27,0,0
+1660129251897,62,UserName,403,Forbidden,Thread Group 1-45,text,false,Test failed: code expected to contain /200/,808,296,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,62,0,0
+1660129251924,50,ResetOTP,403,Forbidden,Thread Group 1-35,text,false,Test failed: code expected to contain /200/,808,274,7,7,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,50,0,12
+1660129252656,27,UserName,403,Forbidden,Thread Group 1-41,text,false,Test failed: code expected to contain /200/,820,296,7,7,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,27,0,0
+1660129253414,31,UserName,403,Forbidden,Thread Group 1-47,text,false,Test failed: code expected to contain /200/,812,296,6,6,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,31,0,0
+1660129253612,26,GetRequestedOTP,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /200/,808,268,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/otp,26,0,0
+1660129256437,89,GetRequestedOTP,403,Forbidden,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,812,268,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/otp,89,0,0
+1660129258830,22,UserName,403,Forbidden,Thread Group 1-37,text,false,Test failed: code expected to contain /200/,812,296,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,22,0,0
+1660129258835,63,UserName,403,Forbidden,Thread Group 1-46,text,false,Test failed: code expected to contain /200/,812,296,4,4,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,62,0,13
+1660129258976,23,UserName,403,Forbidden,Thread Group 1-35,text,false,Test failed: code expected to contain /200/,818,296,3,3,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,23,0,0
+1660129260640,23,ResetOTP,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /200/,808,274,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,23,0,0
+1660129263529,18,ResetOTP,403,Forbidden,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,814,274,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,18,0,0
+1660129267664,22,UserName,403,Forbidden,Thread Group 1-43,text,false,Test failed: code expected to contain /200/,814,296,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,22,0,0
+1660129270547,94,UserName,403,Forbidden,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,818,296,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,94,0,0
