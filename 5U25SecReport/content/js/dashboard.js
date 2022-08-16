@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 87.5, "KoPercent": 12.5};
+    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.3125, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [1.0, 500, 1500, "GetRequestedOTP"], "isController": false}, {"data": [0.0, 500, 1500, "UserName"], "isController": false}, {"data": [0.0, 500, 1500, "ResetOTP"], "isController": false}, {"data": [0.0, 500, 1500, "CreateAccount"], "isController": false}, {"data": [1.0, 500, 1500, "RegisterDevice"], "isController": false}, {"data": [0.0, 500, 1500, "Initv1"], "isController": false}, {"data": [0.0, 500, 1500, "VerifyOTP"], "isController": false}, {"data": [0.5, 500, 1500, "CreatedAccount-GetRequestedOTP"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.875, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [1.0, 500, 1500, "GetRequestedOTP"], "isController": false}, {"data": [0.5, 500, 1500, "UserName"], "isController": false}, {"data": [1.0, 500, 1500, "ResetOTP"], "isController": false}, {"data": [1.0, 500, 1500, "CreateAccount"], "isController": false}, {"data": [1.0, 500, 1500, "RegisterDevice"], "isController": false}, {"data": [0.5, 500, 1500, "Initv1"], "isController": false}, {"data": [1.0, 500, 1500, "VerifyOTP"], "isController": false}, {"data": [1.0, 500, 1500, "CreatedAccount-GetRequestedOTP"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 8, 1, 12.5, 1449.375, 15, 4240, 1396.0, 4240.0, 4240.0, 4240.0, 0.685048809727693, 0.37530506079808185, 0.2906774490494948], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["GetRequestedOTP", 1, 0, 0.0, 15.0, 15, 15, 15.0, 15.0, 15.0, 15.0, 66.66666666666667, 15.559895833333334, 39.71354166666667], "isController": false}, {"data": ["UserName", 1, 1, 100.0, 95.0, 95, 95, 95.0, 95.0, 95.0, 95.0, 10.526315789473683, 21.278782894736842, 0.0], "isController": false}, {"data": ["ResetOTP", 1, 0, 0.0, 4240.0, 4240, 4240, 4240.0, 4240.0, 4240.0, 4240.0, 0.2358490566037736, 0.05504680129716981, 0.14187794811320753], "isController": false}, {"data": ["CreateAccount", 1, 0, 0.0, 2084.0, 2084, 2084, 2084.0, 2084.0, 2084.0, 2084.0, 0.4798464491362764, 0.11855581214011515, 0.3078702315259117], "isController": false}, {"data": ["RegisterDevice", 1, 0, 0.0, 43.0, 43, 43, 43.0, 43.0, 43.0, 43.0, 23.25581395348837, 11.355377906976745, 10.810319767441861], "isController": false}, {"data": ["Initv1", 1, 0, 0.0, 2326.0, 2326, 2326, 2326.0, 2326.0, 2326.0, 2326.0, 0.4299226139294927, 0.29179318035253654, 0.0], "isController": false}, {"data": ["VerifyOTP", 1, 0, 0.0, 1790.0, 1790, 1790, 1790.0, 1790.0, 1790.0, 1790.0, 0.5586592178770949, 0.13802810754189943, 0.3278849511173184], "isController": false}, {"data": ["CreatedAccount-GetRequestedOTP", 1, 0, 0.0, 1002.0, 1002, 1002, 1002.0, 1002.0, 1002.0, 1002.0, 0.998003992015968, 0.2329325723552894, 0.5029004491017964], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 40, 0, 0.0, 248.07500000000005, 5, 920, 21.0, 832.3, 877.6999999999999, 920.0, 0.564278358514255, 0.18666923236982805, 0.28337904869722236], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["GetRequestedOTP", 5, 0, 0.0, 15.2, 5, 49, 6.0, 49.0, 49.0, 49.0, 0.2533954996959254, 0.05914211369856071, 0.15094849102979932], "isController": false}, {"data": ["UserName", 5, 0, 0.0, 829.6, 715, 920, 833.0, 920.0, 920.0, 920.0, 0.24395003903200624, 0.06956387831772054, 0.15199230947501952], "isController": false}, {"data": ["ResetOTP", 5, 0, 0.0, 36.2, 20, 92, 22.0, 92.0, 92.0, 92.0, 0.253665465983461, 0.059205123408249204, 0.15259563188067576], "isController": false}, {"data": ["CreateAccount", 5, 0, 0.0, 271.6, 232, 298, 290.0, 298.0, 298.0, 298.0, 0.2489048187972919, 0.06149699136300278, 0.15969772065412186], "isController": false}, {"data": ["RegisterDevice", 5, 0, 0.0, 13.8, 7, 39, 8.0, 39.0, 39.0, 39.0, 0.25147110596992406, 0.12278862596187698, 0.1168947719157069], "isController": false}, {"data": ["Initv1", 5, 0, 0.0, 797.6, 741, 853, 808.0, 853.0, 853.0, 853.0, 0.24328532502919425, 0.16512041103055664, 0.0], "isController": false}, {"data": ["VerifyOTP", 5, 0, 0.0, 10.4, 8, 13, 10.0, 13.0, 13.0, 13.0, 0.2524742476267421, 0.062378891259341554, 0.14818068635124218], "isController": false}, {"data": ["CreatedAccount-GetRequestedOTP", 5, 0, 0.0, 10.2, 6, 20, 8.0, 20.0, 20.0, 20.0, 0.2524742476267421, 0.058927094905069685, 0.127223351343163], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: org.apache.http.NoHttpResponseException/Non HTTP response message: 10.10.78.197:4000 failed to respond", 1, 100.0, 12.5], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 8, 1, "Non HTTP response code: org.apache.http.NoHttpResponseException/Non HTTP response message: 10.10.78.197:4000 failed to respond", 1, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["UserName", 1, 1, "Non HTTP response code: org.apache.http.NoHttpResponseException/Non HTTP response message: 10.10.78.197:4000 failed to respond", 1, null, null, null, null, null, null, null, null], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 40, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
