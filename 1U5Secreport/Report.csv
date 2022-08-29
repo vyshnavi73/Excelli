@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1661766389098,436,Register Device,201,Created,Http URL/API Test 1-1,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,433,0,411
+1661766389591,623,CreateAccount,201,Created,Http URL/API Test 1-1,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,623,0,0
+1661766390217,240,Get Requested OTP,200,OK,Http URL/API Test 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,239,0,0
+1661766390460,22,VerifyOTP,201,Created,Http URL/API Test 1-1,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,22,0,0
+1661766390483,147,Init V2,422,Unprocessable Entity,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /201/,310,412592,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,147,0,0
+1661766390633,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661766390642,7,ResetOTP,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,6,0,0
+1661766390656,5,UserName,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
