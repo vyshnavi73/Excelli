@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1661763029907,656,Register Device,201,Created,Http URL/API Test 1-1,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,646,0,614
+1661763030683,588,CreateAccount,201,Created,Http URL/API Test 1-1,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,587,0,0
+1661763031272,269,Get Requested OTP,200,OK,Http URL/API Test 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,269,0,0
+1661763031546,25,VerifyOTP,201,Created,Http URL/API Test 1-1,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,25,0,0
+1661763031572,151,Init V2,422,Unprocessable Entity,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,151,0,0
+1661763031725,6,Get Requested OTP,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,6,0,0
+1661763031734,4,ResetOTP,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763031744,7,UserName,403,Forbidden,Http URL/API Test 1-1,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,7,0,0
+1661763034708,35,Register Device,201,Created,Http URL/API Test 1-2,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,35,0,25
+1661763034747,457,CreateAccount,201,Created,Http URL/API Test 1-2,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,456,0,0
+1661763035205,246,Get Requested OTP,200,OK,Http URL/API Test 1-2,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,245,0,0
+1661763035454,17,VerifyOTP,201,Created,Http URL/API Test 1-2,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16,0,0
+1661763035471,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-2,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,136,0,0
+1661763035609,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-2,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763035616,4,ResetOTP,403,Forbidden,Http URL/API Test 1-2,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763035626,3,UserName,403,Forbidden,Http URL/API Test 1-2,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763039721,24,Register Device,201,Created,Http URL/API Test 1-3,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,18
+1661763039748,584,CreateAccount,201,Created,Http URL/API Test 1-3,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,584,0,0
+1661763040333,281,Get Requested OTP,200,OK,Http URL/API Test 1-3,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,281,0,0
+1661763040618,15,VerifyOTP,201,Created,Http URL/API Test 1-3,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1661763040634,155,Init V2,422,Unprocessable Entity,Http URL/API Test 1-3,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,155,0,0
+1661763040791,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-3,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763040797,3,ResetOTP,403,Forbidden,Http URL/API Test 1-3,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763040802,4,UserName,403,Forbidden,Http URL/API Test 1-3,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763044709,30,Register Device,201,Created,Http URL/API Test 1-4,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,29,0,21
+1661763044741,504,CreateAccount,201,Created,Http URL/API Test 1-4,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,504,0,0
+1661763045245,259,Get Requested OTP,200,OK,Http URL/API Test 1-4,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,259,0,0
+1661763045506,12,VerifyOTP,201,Created,Http URL/API Test 1-4,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763045518,146,Init V2,422,Unprocessable Entity,Http URL/API Test 1-4,text,false,Test failed: code expected to contain /201/,310,412592,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,146,0,0
+1661763045665,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-4,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763045671,3,ResetOTP,403,Forbidden,Http URL/API Test 1-4,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763045676,3,UserName,403,Forbidden,Http URL/API Test 1-4,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763049705,25,Register Device,201,Created,Http URL/API Test 1-5,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,19
+1661763049732,526,CreateAccount,201,Created,Http URL/API Test 1-5,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,526,0,0
+1661763050259,263,Get Requested OTP,200,OK,Http URL/API Test 1-5,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,263,0,0
+1661763050524,14,VerifyOTP,201,Created,Http URL/API Test 1-5,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763050538,140,Init V2,422,Unprocessable Entity,Http URL/API Test 1-5,text,false,Test failed: code expected to contain /201/,310,412585,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,140,0,0
+1661763050679,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-5,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763050685,4,ResetOTP,403,Forbidden,Http URL/API Test 1-5,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763050691,4,UserName,403,Forbidden,Http URL/API Test 1-5,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763054716,29,Register Device,201,Created,Http URL/API Test 1-6,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,29,0,22
+1661763054747,355,CreateAccount,201,Created,Http URL/API Test 1-6,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,355,0,0
+1661763055103,258,Get Requested OTP,200,OK,Http URL/API Test 1-6,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,258,0,0
+1661763055363,10,VerifyOTP,201,Created,Http URL/API Test 1-6,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763055374,134,Init V2,422,Unprocessable Entity,Http URL/API Test 1-6,text,false,Test failed: code expected to contain /201/,310,412592,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,134,0,0
+1661763055509,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-6,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763055515,3,ResetOTP,403,Forbidden,Http URL/API Test 1-6,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763055520,3,UserName,403,Forbidden,Http URL/API Test 1-6,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763059706,27,Register Device,201,Created,Http URL/API Test 1-7,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,27,0,22
+1661763059735,405,CreateAccount,201,Created,Http URL/API Test 1-7,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,405,0,0
+1661763060142,259,Get Requested OTP,200,OK,Http URL/API Test 1-7,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,259,0,0
+1661763060403,17,VerifyOTP,201,Created,Http URL/API Test 1-7,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
+1661763060421,152,Init V2,422,Unprocessable Entity,Http URL/API Test 1-7,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,151,0,0
+1661763060574,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-7,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763060580,4,ResetOTP,403,Forbidden,Http URL/API Test 1-7,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763060586,3,UserName,403,Forbidden,Http URL/API Test 1-7,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763064717,31,Register Device,201,Created,Http URL/API Test 1-8,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,31,0,25
+1661763064751,347,CreateAccount,201,Created,Http URL/API Test 1-8,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,347,0,0
+1661763065099,290,Get Requested OTP,200,OK,Http URL/API Test 1-8,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,290,0,0
+1661763065391,16,VerifyOTP,201,Created,Http URL/API Test 1-8,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16,0,0
+1661763065408,129,Init V2,422,Unprocessable Entity,Http URL/API Test 1-8,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,129,0,0
+1661763065538,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-8,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763065544,4,ResetOTP,403,Forbidden,Http URL/API Test 1-8,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763065549,4,UserName,403,Forbidden,Http URL/API Test 1-8,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763069723,26,Register Device,201,Created,Http URL/API Test 1-9,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,20
+1661763069754,379,CreateAccount,201,Created,Http URL/API Test 1-9,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,379,0,0
+1661763070134,261,Get Requested OTP,200,OK,Http URL/API Test 1-9,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,261,0,0
+1661763070397,16,VerifyOTP,201,Created,Http URL/API Test 1-9,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16,0,0
+1661763070414,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-9,text,false,Test failed: code expected to contain /201/,310,412592,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,137,0,0
+1661763070553,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-9,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763070558,4,ResetOTP,403,Forbidden,Http URL/API Test 1-9,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763070563,4,UserName,403,Forbidden,Http URL/API Test 1-9,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763074733,25,Register Device,201,Created,Http URL/API Test 1-10,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,16
+1661763074760,396,CreateAccount,201,Created,Http URL/API Test 1-10,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,396,0,0
+1661763075157,248,Get Requested OTP,200,OK,Http URL/API Test 1-10,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,248,0,0
+1661763075407,11,VerifyOTP,201,Created,Http URL/API Test 1-10,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763075419,135,Init V2,422,Unprocessable Entity,Http URL/API Test 1-10,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,135,0,0
+1661763075555,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-10,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763075561,3,ResetOTP,403,Forbidden,Http URL/API Test 1-10,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763075565,5,UserName,403,Forbidden,Http URL/API Test 1-10,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763079706,24,Register Device,201,Created,Http URL/API Test 1-11,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,18
+1661763079732,462,CreateAccount,201,Created,Http URL/API Test 1-11,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,462,0,0
+1661763080195,266,Get Requested OTP,200,OK,Http URL/API Test 1-11,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,266,0,0
+1661763080463,11,VerifyOTP,201,Created,Http URL/API Test 1-11,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763080474,134,Init V2,422,Unprocessable Entity,Http URL/API Test 1-11,text,false,Test failed: code expected to contain /201/,310,412627,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,134,0,0
+1661763080609,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-11,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763080615,6,ResetOTP,403,Forbidden,Http URL/API Test 1-11,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,6,0,0
+1661763080622,5,UserName,403,Forbidden,Http URL/API Test 1-11,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763084711,23,Register Device,201,Created,Http URL/API Test 1-12,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,16
+1661763084738,401,CreateAccount,201,Created,Http URL/API Test 1-12,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,401,0,0
+1661763085140,277,Get Requested OTP,200,OK,Http URL/API Test 1-12,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,277,0,0
+1661763085419,9,VerifyOTP,201,Created,Http URL/API Test 1-12,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9,0,0
+1661763085429,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-12,text,false,Test failed: code expected to contain /201/,310,412578,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,137,0,0
+1661763085567,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-12,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763085573,3,ResetOTP,403,Forbidden,Http URL/API Test 1-12,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763085577,4,UserName,403,Forbidden,Http URL/API Test 1-12,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763089716,25,Register Device,201,Created,Http URL/API Test 1-13,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,16
+1661763089744,288,CreateAccount,201,Created,Http URL/API Test 1-13,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,288,0,0
+1661763090035,261,Get Requested OTP,200,OK,Http URL/API Test 1-13,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,261,0,0
+1661763090298,12,VerifyOTP,201,Created,Http URL/API Test 1-13,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763090311,183,Init V2,422,Unprocessable Entity,Http URL/API Test 1-13,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,183,0,0
+1661763090495,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-13,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763090501,4,ResetOTP,403,Forbidden,Http URL/API Test 1-13,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763090507,4,UserName,403,Forbidden,Http URL/API Test 1-13,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763094718,20,Register Device,201,Created,Http URL/API Test 1-14,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,13
+1661763094740,455,CreateAccount,201,Created,Http URL/API Test 1-14,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,454,0,0
+1661763095195,256,Get Requested OTP,200,OK,Http URL/API Test 1-14,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,256,0,0
+1661763095453,12,VerifyOTP,201,Created,Http URL/API Test 1-14,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763095466,135,Init V2,422,Unprocessable Entity,Http URL/API Test 1-14,text,false,Test failed: code expected to contain /201/,310,412648,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,135,0,0
+1661763095602,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-14,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763095608,3,ResetOTP,403,Forbidden,Http URL/API Test 1-14,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763095612,3,UserName,403,Forbidden,Http URL/API Test 1-14,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763099712,31,Register Device,201,Created,Http URL/API Test 1-15,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,31,0,23
+1661763099745,351,CreateAccount,201,Created,Http URL/API Test 1-15,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,351,0,0
+1661763100097,261,Get Requested OTP,200,OK,Http URL/API Test 1-15,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,261,0,0
+1661763100360,11,VerifyOTP,201,Created,Http URL/API Test 1-15,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763100371,134,Init V2,422,Unprocessable Entity,Http URL/API Test 1-15,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,134,0,0
+1661763100506,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-15,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763100512,4,ResetOTP,403,Forbidden,Http URL/API Test 1-15,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763100517,4,UserName,403,Forbidden,Http URL/API Test 1-15,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763104711,20,Register Device,201,Created,Http URL/API Test 1-16,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,15
+1661763104733,529,CreateAccount,201,Created,Http URL/API Test 1-16,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,528,0,0
+1661763105262,296,Get Requested OTP,200,OK,Http URL/API Test 1-16,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,296,0,0
+1661763105560,11,VerifyOTP,201,Created,Http URL/API Test 1-16,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763105572,163,Init V2,422,Unprocessable Entity,Http URL/API Test 1-16,text,false,Test failed: code expected to contain /201/,310,412585,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,163,0,0
+1661763105736,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-16,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763105741,5,ResetOTP,403,Forbidden,Http URL/API Test 1-16,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
+1661763105749,6,UserName,403,Forbidden,Http URL/API Test 1-16,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6,0,0
+1661763109725,22,Register Device,201,Created,Http URL/API Test 1-17,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,22,0,13
+1661763109749,505,CreateAccount,201,Created,Http URL/API Test 1-17,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,505,0,0
+1661763110255,245,Get Requested OTP,200,OK,Http URL/API Test 1-17,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,245,0,0
+1661763110502,17,VerifyOTP,201,Created,Http URL/API Test 1-17,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
+1661763110520,148,Init V2,422,Unprocessable Entity,Http URL/API Test 1-17,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,148,0,0
+1661763110669,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-17,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763110676,5,ResetOTP,403,Forbidden,Http URL/API Test 1-17,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
+1661763110683,4,UserName,403,Forbidden,Http URL/API Test 1-17,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763114724,26,Register Device,201,Created,Http URL/API Test 1-18,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,26,0,19
+1661763114752,559,CreateAccount,201,Created,Http URL/API Test 1-18,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,559,0,0
+1661763115312,244,Get Requested OTP,200,OK,Http URL/API Test 1-18,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
+1661763115558,13,VerifyOTP,201,Created,Http URL/API Test 1-18,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763115571,154,Init V2,422,Unprocessable Entity,Http URL/API Test 1-18,text,false,Test failed: code expected to contain /201/,310,412634,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,154,0,0
+1661763115726,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-18,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763115732,4,ResetOTP,403,Forbidden,Http URL/API Test 1-18,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763115738,8,UserName,403,Forbidden,Http URL/API Test 1-18,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,8,0,0
+1661763119703,37,Register Device,201,Created,Http URL/API Test 1-19,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,37,0,30
+1661763119742,479,CreateAccount,201,Created,Http URL/API Test 1-19,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,479,0,0
+1661763120223,252,Get Requested OTP,200,OK,Http URL/API Test 1-19,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,252,0,0
+1661763120477,12,VerifyOTP,201,Created,Http URL/API Test 1-19,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763120490,141,Init V2,422,Unprocessable Entity,Http URL/API Test 1-19,text,false,Test failed: code expected to contain /201/,310,412599,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,141,0,0
+1661763120632,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-19,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763120637,4,ResetOTP,403,Forbidden,Http URL/API Test 1-19,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763120642,5,UserName,403,Forbidden,Http URL/API Test 1-19,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763124696,23,Register Device,201,Created,Http URL/API Test 1-20,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,15
+1661763124721,506,CreateAccount,201,Created,Http URL/API Test 1-20,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,506,0,0
+1661763125228,250,Get Requested OTP,200,OK,Http URL/API Test 1-20,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,249,0,0
+1661763125479,10,VerifyOTP,201,Created,Http URL/API Test 1-20,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763125490,135,Init V2,422,Unprocessable Entity,Http URL/API Test 1-20,text,false,Test failed: code expected to contain /201/,310,412627,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,135,0,0
+1661763125625,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-20,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763125631,5,ResetOTP,403,Forbidden,Http URL/API Test 1-20,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
+1661763125637,5,UserName,403,Forbidden,Http URL/API Test 1-20,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763129689,21,Register Device,201,Created,Http URL/API Test 1-21,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,21,0,14
+1661763129712,563,CreateAccount,201,Created,Http URL/API Test 1-21,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,562,0,0
+1661763130275,244,Get Requested OTP,200,OK,Http URL/API Test 1-21,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
+1661763130520,13,VerifyOTP,201,Created,Http URL/API Test 1-21,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763130533,189,Init V2,422,Unprocessable Entity,Http URL/API Test 1-21,text,false,Test failed: code expected to contain /201/,310,412585,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,189,0,0
+1661763130723,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-21,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763130730,4,ResetOTP,403,Forbidden,Http URL/API Test 1-21,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763130736,4,UserName,403,Forbidden,Http URL/API Test 1-21,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763134690,23,Register Device,201,Created,Http URL/API Test 1-22,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,17
+1661763134715,384,CreateAccount,201,Created,Http URL/API Test 1-22,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,384,0,0
+1661763135100,252,Get Requested OTP,200,OK,Http URL/API Test 1-22,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,252,0,0
+1661763135354,11,VerifyOTP,201,Created,Http URL/API Test 1-22,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763135365,138,Init V2,422,Unprocessable Entity,Http URL/API Test 1-22,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,138,0,0
+1661763135504,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-22,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763135510,3,ResetOTP,403,Forbidden,Http URL/API Test 1-22,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763135514,4,UserName,403,Forbidden,Http URL/API Test 1-22,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763139702,18,Register Device,201,Created,Http URL/API Test 1-23,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,13
+1661763139722,377,CreateAccount,201,Created,Http URL/API Test 1-23,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,377,0,0
+1661763140100,249,Get Requested OTP,200,OK,Http URL/API Test 1-23,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,249,0,0
+1661763140351,15,VerifyOTP,201,Created,Http URL/API Test 1-23,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1661763140366,135,Init V2,422,Unprocessable Entity,Http URL/API Test 1-23,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,135,0,0
+1661763144707,18,Register Device,201,Created,Http URL/API Test 1-24,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,12
+1661763144726,327,CreateAccount,201,Created,Http URL/API Test 1-24,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,327,0,0
+1661763145054,254,Get Requested OTP,200,OK,Http URL/API Test 1-24,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,254,0,0
+1661763145310,11,VerifyOTP,201,Created,Http URL/API Test 1-24,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763145321,148,Init V2,422,Unprocessable Entity,Http URL/API Test 1-24,text,false,Test failed: code expected to contain /201/,310,412627,2,2,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,148,0,0
+1661763145470,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-24,text,false,Test failed: code expected to contain /200/,309,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763145475,4,ResetOTP,403,Forbidden,Http URL/API Test 1-24,text,false,Test failed: code expected to contain /200/,309,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763145482,4,UserName,403,Forbidden,Http URL/API Test 1-24,text,false,Test failed: code expected to contain /200/,309,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763140502,5003,Get Requested OTP,502,Bad Gateway,Http URL/API Test 1-23,text,false,Test failed: code expected to contain /200/,277,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5003,0,0
+1661763145507,3,ResetOTP,403,Forbidden,Http URL/API Test 1-23,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763145511,3,UserName,403,Forbidden,Http URL/API Test 1-23,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763149711,17,Register Device,201,Created,Http URL/API Test 1-25,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,17,0,11
+1661763149729,389,CreateAccount,201,Created,Http URL/API Test 1-25,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,388,0,0
+1661763150119,260,Get Requested OTP,200,OK,Http URL/API Test 1-25,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,260,0,0
+1661763150381,12,VerifyOTP,201,Created,Http URL/API Test 1-25,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763150393,158,Init V2,422,Unprocessable Entity,Http URL/API Test 1-25,text,false,Test failed: code expected to contain /201/,310,412592,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,158,0,0
+1661763150552,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-25,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763150558,3,ResetOTP,403,Forbidden,Http URL/API Test 1-25,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763150562,3,UserName,403,Forbidden,Http URL/API Test 1-25,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763154728,19,Register Device,201,Created,Http URL/API Test 1-26,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,13
+1661763154748,295,CreateAccount,201,Created,Http URL/API Test 1-26,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,295,0,0
+1661763155044,269,Get Requested OTP,200,OK,Http URL/API Test 1-26,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,269,0,0
+1661763155315,10,VerifyOTP,201,Created,Http URL/API Test 1-26,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763155325,155,Init V2,422,Unprocessable Entity,Http URL/API Test 1-26,text,false,Test failed: code expected to contain /201/,310,412634,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,155,0,0
+1661763155481,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-26,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763155487,4,ResetOTP,403,Forbidden,Http URL/API Test 1-26,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763155493,3,UserName,403,Forbidden,Http URL/API Test 1-26,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2,0,0
+1661763159694,17,Register Device,201,Created,Http URL/API Test 1-27,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,17,0,12
+1661763159712,503,CreateAccount,201,Created,Http URL/API Test 1-27,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,502,0,0
+1661763160215,272,Get Requested OTP,200,OK,Http URL/API Test 1-27,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,272,0,0
+1661763160488,9,VerifyOTP,201,Created,Http URL/API Test 1-27,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9,0,0
+1661763160497,143,Init V2,422,Unprocessable Entity,Http URL/API Test 1-27,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,143,0,0
+1661763160641,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-27,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763160647,2,ResetOTP,403,Forbidden,Http URL/API Test 1-27,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2,0,0
+1661763160650,4,UserName,403,Forbidden,Http URL/API Test 1-27,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763164704,25,Register Device,201,Created,Http URL/API Test 1-28,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,18
+1661763164730,395,CreateAccount,201,Created,Http URL/API Test 1-28,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,395,0,0
+1661763165125,248,Get Requested OTP,200,OK,Http URL/API Test 1-28,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,248,0,0
+1661763165375,13,VerifyOTP,201,Created,Http URL/API Test 1-28,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763165389,138,Init V2,422,Unprocessable Entity,Http URL/API Test 1-28,text,false,Test failed: code expected to contain /201/,310,412627,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,138,0,0
+1661763165528,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-28,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763165534,4,ResetOTP,403,Forbidden,Http URL/API Test 1-28,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763165543,5,UserName,403,Forbidden,Http URL/API Test 1-28,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763169688,20,Register Device,201,Created,Http URL/API Test 1-29,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,14
+1661763169710,465,CreateAccount,201,Created,Http URL/API Test 1-29,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,465,0,0
+1661763170176,276,Get Requested OTP,200,OK,Http URL/API Test 1-29,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,276,0,0
+1661763170454,20,VerifyOTP,201,Created,Http URL/API Test 1-29,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20,0,0
+1661763170475,159,Init V2,422,Unprocessable Entity,Http URL/API Test 1-29,text,false,Test failed: code expected to contain /201/,310,412620,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,159,0,0
+1661763170636,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-29,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763170642,4,ResetOTP,403,Forbidden,Http URL/API Test 1-29,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763170647,7,UserName,403,Forbidden,Http URL/API Test 1-29,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,7,0,0
+1661763174684,21,Register Device,201,Created,Http URL/API Test 1-30,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,21,0,14
+1661763174707,440,CreateAccount,201,Created,Http URL/API Test 1-30,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,440,0,0
+1661763175148,268,Get Requested OTP,200,OK,Http URL/API Test 1-30,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,268,0,0
+1661763175418,10,VerifyOTP,201,Created,Http URL/API Test 1-30,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763175429,145,Init V2,422,Unprocessable Entity,Http URL/API Test 1-30,text,false,Test failed: code expected to contain /201/,310,412627,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,145,0,0
+1661763175575,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-30,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763175581,4,ResetOTP,403,Forbidden,Http URL/API Test 1-30,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763175586,3,UserName,403,Forbidden,Http URL/API Test 1-30,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763179687,23,Register Device,201,Created,Http URL/API Test 1-31,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,15
+1661763179711,489,CreateAccount,201,Created,Http URL/API Test 1-31,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,489,0,0
+1661763180202,281,Get Requested OTP,200,OK,Http URL/API Test 1-31,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,281,0,0
+1661763180484,17,VerifyOTP,201,Created,Http URL/API Test 1-31,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
+1661763180501,152,Init V2,422,Unprocessable Entity,Http URL/API Test 1-31,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,152,0,0
+1661763180654,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-31,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763180660,4,ResetOTP,403,Forbidden,Http URL/API Test 1-31,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763180665,5,UserName,403,Forbidden,Http URL/API Test 1-31,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763184687,20,Register Device,201,Created,Http URL/API Test 1-32,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,13
+1661763184708,459,CreateAccount,201,Created,Http URL/API Test 1-32,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,459,0,0
+1661763185167,388,Get Requested OTP,200,OK,Http URL/API Test 1-32,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,388,0,0
+1661763185557,12,VerifyOTP,201,Created,Http URL/API Test 1-32,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763185570,147,Init V2,422,Unprocessable Entity,Http URL/API Test 1-32,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,147,0,0
+1661763185719,7,Get Requested OTP,403,Forbidden,Http URL/API Test 1-32,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,7,0,0
+1661763185727,6,ResetOTP,403,Forbidden,Http URL/API Test 1-32,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,6,0,0
+1661763185734,6,UserName,403,Forbidden,Http URL/API Test 1-32,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6,0,0
+1661763189685,19,Register Device,201,Created,Http URL/API Test 1-33,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,13
+1661763189706,429,CreateAccount,201,Created,Http URL/API Test 1-33,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,429,0,0
+1661763190136,262,Get Requested OTP,200,OK,Http URL/API Test 1-33,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,262,0,0
+1661763190399,13,VerifyOTP,201,Created,Http URL/API Test 1-33,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763190412,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-33,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,136,0,0
+1661763190549,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-33,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763190555,4,ResetOTP,403,Forbidden,Http URL/API Test 1-33,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763190560,5,UserName,403,Forbidden,Http URL/API Test 1-33,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763194688,19,Register Device,201,Created,Http URL/API Test 1-34,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,13
+1661763194709,518,CreateAccount,201,Created,Http URL/API Test 1-34,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,517,0,0
+1661763195227,318,Get Requested OTP,200,OK,Http URL/API Test 1-34,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,318,0,0
+1661763195547,12,VerifyOTP,201,Created,Http URL/API Test 1-34,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763195559,214,Init V2,422,Unprocessable Entity,Http URL/API Test 1-34,text,false,Test failed: code expected to contain /201/,310,412634,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,214,0,0
+1661763195774,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-34,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763195780,11,ResetOTP,403,Forbidden,Http URL/API Test 1-34,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,11,0,0
+1661763195792,5,UserName,403,Forbidden,Http URL/API Test 1-34,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5,0,0
+1661763199686,24,Register Device,201,Created,Http URL/API Test 1-35,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,18
+1661763199712,520,CreateAccount,201,Created,Http URL/API Test 1-35,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,520,0,0
+1661763200233,278,Get Requested OTP,200,OK,Http URL/API Test 1-35,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,278,0,0
+1661763200513,10,VerifyOTP,201,Created,Http URL/API Test 1-35,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763200524,146,Init V2,422,Unprocessable Entity,Http URL/API Test 1-35,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,146,0,0
+1661763200671,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-35,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763200679,3,ResetOTP,403,Forbidden,Http URL/API Test 1-35,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763200684,6,UserName,403,Forbidden,Http URL/API Test 1-35,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6,0,0
+1661763204685,18,Register Device,201,Created,Http URL/API Test 1-36,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,11
+1661763204704,740,CreateAccount,201,Created,Http URL/API Test 1-36,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,740,0,0
+1661763205445,263,Get Requested OTP,200,OK,Http URL/API Test 1-36,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,263,0,0
+1661763205710,16,VerifyOTP,201,Created,Http URL/API Test 1-36,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16,0,0
+1661763205727,128,Init V2,422,Unprocessable Entity,Http URL/API Test 1-36,text,false,Test failed: code expected to contain /201/,310,412648,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,128,0,0
+1661763205856,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-36,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763205861,3,ResetOTP,403,Forbidden,Http URL/API Test 1-36,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763205865,3,UserName,403,Forbidden,Http URL/API Test 1-36,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763209692,18,Register Device,201,Created,Http URL/API Test 1-37,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,12
+1661763209711,396,CreateAccount,201,Created,Http URL/API Test 1-37,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,396,0,0
+1661763210109,262,Get Requested OTP,200,OK,Http URL/API Test 1-37,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,262,0,0
+1661763210373,13,VerifyOTP,201,Created,Http URL/API Test 1-37,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763210386,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-37,text,false,Test failed: code expected to contain /201/,310,412627,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,137,0,0
+1661763210524,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-37,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763210528,3,ResetOTP,403,Forbidden,Http URL/API Test 1-37,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763210532,4,UserName,403,Forbidden,Http URL/API Test 1-37,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763214695,18,Register Device,201,Created,Http URL/API Test 1-38,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,17,0,11
+1661763214714,491,CreateAccount,201,Created,Http URL/API Test 1-38,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,491,0,0
+1661763215206,363,Get Requested OTP,200,OK,Http URL/API Test 1-38,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,363,0,0
+1661763215571,12,VerifyOTP,201,Created,Http URL/API Test 1-38,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763215584,169,Init V2,422,Unprocessable Entity,Http URL/API Test 1-38,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,169,0,0
+1661763215754,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-38,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763215758,3,ResetOTP,403,Forbidden,Http URL/API Test 1-38,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763215762,3,UserName,403,Forbidden,Http URL/API Test 1-38,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763219685,21,Register Device,201,Created,Http URL/API Test 1-39,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,21,0,16
+1661763219707,428,CreateAccount,201,Created,Http URL/API Test 1-39,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,428,0,0
+1661763220136,270,Get Requested OTP,200,OK,Http URL/API Test 1-39,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,270,0,0
+1661763220407,11,VerifyOTP,201,Created,Http URL/API Test 1-39,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763220419,133,Init V2,422,Unprocessable Entity,Http URL/API Test 1-39,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,132,0,0
+1661763220552,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-39,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763220558,4,ResetOTP,403,Forbidden,Http URL/API Test 1-39,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763220563,4,UserName,403,Forbidden,Http URL/API Test 1-39,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763224685,16,Register Device,201,Created,Http URL/API Test 1-40,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1661763224703,375,CreateAccount,201,Created,Http URL/API Test 1-40,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,375,0,0
+1661763225079,251,Get Requested OTP,200,OK,Http URL/API Test 1-40,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,251,0,0
+1661763225332,9,VerifyOTP,201,Created,Http URL/API Test 1-40,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9,0,0
+1661763225342,146,Init V2,422,Unprocessable Entity,Http URL/API Test 1-40,text,false,Test failed: code expected to contain /201/,310,412634,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,146,0,0
+1661763225489,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-40,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763225494,3,ResetOTP,403,Forbidden,Http URL/API Test 1-40,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763225498,3,UserName,403,Forbidden,Http URL/API Test 1-40,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763229684,28,Register Device,201,Created,Http URL/API Test 1-41,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,28,0,22
+1661763229713,369,CreateAccount,201,Created,Http URL/API Test 1-41,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,369,0,0
+1661763230083,348,Get Requested OTP,200,OK,Http URL/API Test 1-41,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,348,0,0
+1661763230432,11,VerifyOTP,201,Created,Http URL/API Test 1-41,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763230444,132,Init V2,422,Unprocessable Entity,Http URL/API Test 1-41,text,false,Test failed: code expected to contain /201/,310,412578,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,132,0,0
+1661763230576,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-41,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763230581,3,ResetOTP,403,Forbidden,Http URL/API Test 1-41,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763230585,4,UserName,403,Forbidden,Http URL/API Test 1-41,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763234688,24,Register Device,201,Created,Http URL/API Test 1-42,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,15
+1661763234714,358,CreateAccount,201,Created,Http URL/API Test 1-42,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,358,0,0
+1661763235072,258,Get Requested OTP,200,OK,Http URL/API Test 1-42,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,258,0,0
+1661763235332,12,VerifyOTP,201,Created,Http URL/API Test 1-42,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1661763235345,132,Init V2,422,Unprocessable Entity,Http URL/API Test 1-42,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,132,0,0
+1661763235478,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-42,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763235483,3,ResetOTP,403,Forbidden,Http URL/API Test 1-42,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763235487,4,UserName,403,Forbidden,Http URL/API Test 1-42,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763239687,24,Register Device,201,Created,Http URL/API Test 1-43,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,19
+1661763239713,448,CreateAccount,201,Created,Http URL/API Test 1-43,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,447,0,0
+1661763240162,270,Get Requested OTP,200,OK,Http URL/API Test 1-43,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,270,0,0
+1661763240434,11,VerifyOTP,201,Created,Http URL/API Test 1-43,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1661763240445,139,Init V2,422,Unprocessable Entity,Http URL/API Test 1-43,text,false,Test failed: code expected to contain /201/,310,412648,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,139,0,0
+1661763240585,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-43,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763240590,3,ResetOTP,403,Forbidden,Http URL/API Test 1-43,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763240594,4,UserName,403,Forbidden,Http URL/API Test 1-43,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763244690,18,Register Device,201,Created,Http URL/API Test 1-44,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,11
+1661763244709,289,CreateAccount,201,Created,Http URL/API Test 1-44,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,289,0,0
+1661763244999,277,Get Requested OTP,200,OK,Http URL/API Test 1-44,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,277,0,0
+1661763245277,16,VerifyOTP,201,Created,Http URL/API Test 1-44,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1661763245293,139,Init V2,422,Unprocessable Entity,Http URL/API Test 1-44,text,false,Test failed: code expected to contain /201/,310,412606,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,139,0,0
+1661763245433,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-44,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763245438,3,ResetOTP,403,Forbidden,Http URL/API Test 1-44,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763245442,3,UserName,403,Forbidden,Http URL/API Test 1-44,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763249686,18,Register Device,201,Created,Http URL/API Test 1-45,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,11
+1661763249706,354,CreateAccount,201,Created,Http URL/API Test 1-45,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,354,0,0
+1661763250061,288,Get Requested OTP,200,OK,Http URL/API Test 1-45,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,288,0,0
+1661763250351,13,VerifyOTP,201,Created,Http URL/API Test 1-45,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763250365,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-45,text,false,Test failed: code expected to contain /201/,310,412648,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,137,0,0
+1661763250503,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-45,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763250509,4,ResetOTP,403,Forbidden,Http URL/API Test 1-45,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763250514,4,UserName,403,Forbidden,Http URL/API Test 1-45,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763254682,16,Register Device,201,Created,Http URL/API Test 1-46,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,11
+1661763254700,481,CreateAccount,201,Created,Http URL/API Test 1-46,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,481,0,0
+1661763255181,275,Get Requested OTP,200,OK,Http URL/API Test 1-46,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,275,0,0
+1661763255457,8,VerifyOTP,201,Created,Http URL/API Test 1-46,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,8,0,0
+1661763255466,148,Init V2,422,Unprocessable Entity,Http URL/API Test 1-46,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,148,0,0
+1661763255615,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-46,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763255619,3,ResetOTP,403,Forbidden,Http URL/API Test 1-46,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763255623,4,UserName,403,Forbidden,Http URL/API Test 1-46,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,4,0,0
+1661763259685,17,Register Device,201,Created,Http URL/API Test 1-47,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1661763259703,440,CreateAccount,201,Created,Http URL/API Test 1-47,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,440,0,0
+1661763260144,417,Get Requested OTP,200,OK,Http URL/API Test 1-47,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,417,0,0
+1661763260563,15,VerifyOTP,201,Created,Http URL/API Test 1-47,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1661763260578,137,Init V2,422,Unprocessable Entity,Http URL/API Test 1-47,text,false,Test failed: code expected to contain /201/,310,412641,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,137,0,0
+1661763260716,3,Get Requested OTP,403,Forbidden,Http URL/API Test 1-47,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,3,0,0
+1661763260720,3,ResetOTP,403,Forbidden,Http URL/API Test 1-47,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3,0,0
+1661763260724,3,UserName,403,Forbidden,Http URL/API Test 1-47,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763264696,23,Register Device,201,Created,Http URL/API Test 1-48,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,16
+1661763264721,368,CreateAccount,201,Created,Http URL/API Test 1-48,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,368,0,0
+1661763265090,262,Get Requested OTP,200,OK,Http URL/API Test 1-48,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,262,0,0
+1661763265353,13,VerifyOTP,201,Created,Http URL/API Test 1-48,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1661763265366,142,Init V2,422,Unprocessable Entity,Http URL/API Test 1-48,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,142,0,0
+1661763265509,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-48,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763265514,5,ResetOTP,403,Forbidden,Http URL/API Test 1-48,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
+1661763265520,3,UserName,403,Forbidden,Http URL/API Test 1-48,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763269690,20,Register Device,201,Created,Http URL/API Test 1-49,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,12
+1661763269712,440,CreateAccount,201,Created,Http URL/API Test 1-49,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,440,0,0
+1661763270153,262,Get Requested OTP,200,OK,Http URL/API Test 1-49,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,262,0,0
+1661763270417,17,VerifyOTP,201,Created,Http URL/API Test 1-49,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
+1661763270435,130,Init V2,422,Unprocessable Entity,Http URL/API Test 1-49,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,130,0,0
+1661763270566,5,Get Requested OTP,403,Forbidden,Http URL/API Test 1-49,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,5,0,0
+1661763270572,4,ResetOTP,403,Forbidden,Http URL/API Test 1-49,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,4,0,0
+1661763270577,3,UserName,403,Forbidden,Http URL/API Test 1-49,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,3,0,0
+1661763274685,20,Register Device,201,Created,Http URL/API Test 1-50,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,12
+1661763274706,364,CreateAccount,201,Created,Http URL/API Test 1-50,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,364,0,0
+1661763275071,277,Get Requested OTP,200,OK,Http URL/API Test 1-50,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,277,0,0
+1661763275350,10,VerifyOTP,201,Created,Http URL/API Test 1-50,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1661763275360,130,Init V2,422,Unprocessable Entity,Http URL/API Test 1-50,text,false,Test failed: code expected to contain /201/,310,412613,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,130,0,0
+1661763275491,4,Get Requested OTP,403,Forbidden,Http URL/API Test 1-50,text,false,Test failed: code expected to contain /200/,309,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1661763275496,5,ResetOTP,403,Forbidden,Http URL/API Test 1-50,text,false,Test failed: code expected to contain /200/,309,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
+1661763275502,6,UserName,403,Forbidden,Http URL/API Test 1-50,text,false,Test failed: code expected to contain /200/,309,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6,0,0
