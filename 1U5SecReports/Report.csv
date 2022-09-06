@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1662469449447,303,Register Device,201,Created,Thread Group 1-1,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,300,0,285
+1662469449796,431,CreateAccount,201,Created,Thread Group 1-1,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,431,0,0
+1662469450228,227,Get Requested OTP1,200,OK,Thread Group 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,227,0,0
+1662469450458,15,VerifyOTP,201,Created,Thread Group 1-1,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1662469450474,201,Init V2,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /201/,310,332201,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,201,0,0
+1662469450677,5,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,315,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,4,0,0
+1662469450686,5,ResetOTP,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,315,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,5,0,0
