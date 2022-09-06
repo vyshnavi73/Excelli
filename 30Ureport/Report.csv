@@ -1,0 +1,211 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1662446615219,698,Register Device,201,Created,Thread Group 1-1,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,694,0,657
+1662446615991,603,CreateAccount,201,Created,Thread Group 1-1,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,603,0,0
+1662446616595,241,Get Requested OTP1,200,OK,Thread Group 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,241,0,0
+1662446616839,31,VerifyOTP,201,Created,Thread Group 1-1,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,31,0,0
+1662446616871,12,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-1,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446616885,32,Get Requested OTP2,200,OK,Thread Group 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,32,0,25
+1662446616925,234,ResetOTP,200,OK,Thread Group 1-1,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,234,0,0
+1662446620006,24,Register Device,201,Created,Thread Group 1-2,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,17
+1662446620033,408,CreateAccount,201,Created,Thread Group 1-2,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,408,0,0
+1662446620442,260,Get Requested OTP1,200,OK,Thread Group 1-2,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,260,0,0
+1662446620704,12,VerifyOTP,201,Created,Thread Group 1-2,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446620717,3,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-2,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446620721,26,Get Requested OTP2,200,OK,Thread Group 1-2,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,26,0,18
+1662446620754,245,ResetOTP,200,OK,Thread Group 1-2,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,245,0,0
+1662446625003,27,Register Device,201,Created,Thread Group 1-3,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,27,0,16
+1662446625036,457,CreateAccount,201,Created,Thread Group 1-3,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,457,0,0
+1662446625494,241,Get Requested OTP1,200,OK,Thread Group 1-3,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,241,0,0
+1662446625737,12,VerifyOTP,201,Created,Thread Group 1-3,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446625749,3,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-3,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446625753,20,Get Requested OTP2,200,OK,Thread Group 1-3,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,20,0,13
+1662446625774,255,ResetOTP,200,OK,Thread Group 1-3,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,255,0,0
+1662446630000,25,Register Device,201,Created,Thread Group 1-4,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,16
+1662446630028,400,CreateAccount,201,Created,Thread Group 1-4,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,400,0,0
+1662446630428,245,Get Requested OTP1,200,OK,Thread Group 1-4,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,245,0,0
+1662446630674,11,VerifyOTP,201,Created,Thread Group 1-4,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446630685,5,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-4,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446630691,21,Get Requested OTP2,200,OK,Thread Group 1-4,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,17
+1662446630713,240,ResetOTP,200,OK,Thread Group 1-4,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,240,0,0
+1662446635010,22,Register Device,201,Created,Thread Group 1-5,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,22,0,15
+1662446635034,421,CreateAccount,201,Created,Thread Group 1-5,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,421,0,0
+1662446635456,247,Get Requested OTP1,200,OK,Thread Group 1-5,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,247,0,0
+1662446635708,11,VerifyOTP,201,Created,Thread Group 1-5,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446635720,4,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-5,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446635728,23,Get Requested OTP2,200,OK,Thread Group 1-5,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,23,0,17
+1662446635755,253,ResetOTP,200,OK,Thread Group 1-5,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,253,0,0
+1662446640006,23,Register Device,201,Created,Thread Group 1-6,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,23,0,15
+1662446640034,462,CreateAccount,201,Created,Thread Group 1-6,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,461,0,0
+1662446640495,242,Get Requested OTP1,200,OK,Thread Group 1-6,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,242,0,0
+1662446640739,15,VerifyOTP,201,Created,Thread Group 1-6,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15,0,0
+1662446640755,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-6,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446640760,24,Get Requested OTP2,200,OK,Thread Group 1-6,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,24,0,17
+1662446640788,263,ResetOTP,200,OK,Thread Group 1-6,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,263,0,0
+1662446644995,18,Register Device,201,Created,Thread Group 1-7,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,12
+1662446645014,462,CreateAccount,201,Created,Thread Group 1-7,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,462,0,0
+1662446645477,250,Get Requested OTP1,200,OK,Thread Group 1-7,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,250,0,0
+1662446645728,12,VerifyOTP,201,Created,Thread Group 1-7,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446645740,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-7,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446645743,20,Get Requested OTP2,200,OK,Thread Group 1-7,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,20,0,15
+1662446645765,235,ResetOTP,200,OK,Thread Group 1-7,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,235,0,0
+1662446650003,20,Register Device,201,Created,Thread Group 1-8,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,12
+1662446650024,436,CreateAccount,201,Created,Thread Group 1-8,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,436,0,0
+1662446650461,233,Get Requested OTP1,200,OK,Thread Group 1-8,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,233,0,0
+1662446650696,10,VerifyOTP,201,Created,Thread Group 1-8,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1662446650707,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-8,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446650710,21,Get Requested OTP2,200,OK,Thread Group 1-8,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,16
+1662446650732,334,ResetOTP,200,OK,Thread Group 1-8,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,334,0,0
+1662446655011,16,Register Device,201,Created,Thread Group 1-9,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1662446655028,438,CreateAccount,201,Created,Thread Group 1-9,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,438,0,0
+1662446655468,271,Get Requested OTP1,200,OK,Thread Group 1-9,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,271,0,0
+1662446655740,11,VerifyOTP,201,Created,Thread Group 1-9,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446655751,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-9,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446655754,25,Get Requested OTP2,200,OK,Thread Group 1-9,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,25,0,19
+1662446655781,257,ResetOTP,200,OK,Thread Group 1-9,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,257,0,0
+1662446660006,18,Register Device,201,Created,Thread Group 1-10,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,12
+1662446660025,417,CreateAccount,201,Created,Thread Group 1-10,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,417,0,0
+1662446660442,232,Get Requested OTP1,200,OK,Thread Group 1-10,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,232,0,0
+1662446660676,10,VerifyOTP,201,Created,Thread Group 1-10,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1662446660687,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-10,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446660689,18,Get Requested OTP2,200,OK,Thread Group 1-10,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,18,0,11
+1662446660708,332,ResetOTP,200,OK,Thread Group 1-10,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,332,0,0
+1662446664997,16,Register Device,201,Created,Thread Group 1-11,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,11
+1662446665023,508,CreateAccount,201,Created,Thread Group 1-11,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,508,0,0
+1662446665531,260,Get Requested OTP1,200,OK,Thread Group 1-11,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,260,0,0
+1662446665792,12,VerifyOTP,201,Created,Thread Group 1-11,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446665804,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-11,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446665806,19,Get Requested OTP2,200,OK,Thread Group 1-11,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,19,0,13
+1662446665827,249,ResetOTP,200,OK,Thread Group 1-11,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,249,0,0
+1662446669981,18,Register Device,201,Created,Thread Group 1-12,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,18,0,12
+1662446670002,550,CreateAccount,201,Created,Thread Group 1-12,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,550,0,0
+1662446670551,244,Get Requested OTP1,200,OK,Thread Group 1-12,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
+1662446670796,11,VerifyOTP,201,Created,Thread Group 1-12,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446670807,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-12,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446670810,15,Get Requested OTP2,200,OK,Thread Group 1-12,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,15,0,9
+1662446670826,258,ResetOTP,200,OK,Thread Group 1-12,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,258,0,0
+1662446674998,20,Register Device,201,Created,Thread Group 1-13,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,13
+1662446675019,662,CreateAccount,201,Created,Thread Group 1-13,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,662,0,0
+1662446675682,247,Get Requested OTP1,200,OK,Thread Group 1-13,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,247,0,0
+1662446675931,11,VerifyOTP,201,Created,Thread Group 1-13,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446675942,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-13,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446675945,21,Get Requested OTP2,200,OK,Thread Group 1-13,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,14
+1662446675967,207,ResetOTP,200,OK,Thread Group 1-13,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,207,0,0
+1662446679995,20,Register Device,201,Created,Thread Group 1-14,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,12
+1662446680017,421,CreateAccount,201,Created,Thread Group 1-14,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,421,0,0
+1662446680439,234,Get Requested OTP1,200,OK,Thread Group 1-14,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,234,0,0
+1662446680679,14,VerifyOTP,201,Created,Thread Group 1-14,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,14,0,0
+1662446680693,8,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-14,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446680702,22,Get Requested OTP2,200,OK,Thread Group 1-14,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,22,0,15
+1662446680725,322,ResetOTP,200,OK,Thread Group 1-14,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,322,0,0
+1662446684993,23,Register Device,201,Created,Thread Group 1-15,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,22,0,14
+1662446685017,512,CreateAccount,201,Created,Thread Group 1-15,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,512,0,0
+1662446685530,250,Get Requested OTP1,200,OK,Thread Group 1-15,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,250,0,0
+1662446685782,14,VerifyOTP,201,Created,Thread Group 1-15,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,14,0,0
+1662446685796,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-15,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446685798,20,Get Requested OTP2,200,OK,Thread Group 1-15,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,20,0,14
+1662446685820,260,ResetOTP,200,OK,Thread Group 1-15,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,260,0,0
+1662446689975,20,Register Device,201,Created,Thread Group 1-16,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,20,0,12
+1662446689996,369,CreateAccount,201,Created,Thread Group 1-16,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,369,0,0
+1662446690365,257,Get Requested OTP1,200,OK,Thread Group 1-16,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,256,0,0
+1662446690623,10,VerifyOTP,201,Created,Thread Group 1-16,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1662446690634,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-16,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446690636,17,Get Requested OTP2,200,OK,Thread Group 1-16,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,17,0,11
+1662446690654,253,ResetOTP,200,OK,Thread Group 1-16,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,253,0,0
+1662446694977,17,Register Device,201,Created,Thread Group 1-17,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,17,0,11
+1662446694998,373,CreateAccount,201,Created,Thread Group 1-17,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,373,0,0
+1662446695372,244,Get Requested OTP1,200,OK,Thread Group 1-17,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
+1662446695618,14,VerifyOTP,201,Created,Thread Group 1-17,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,14,0,0
+1662446695632,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-17,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446695634,21,Get Requested OTP2,200,OK,Thread Group 1-17,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,14
+1662446695656,245,ResetOTP,200,OK,Thread Group 1-17,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,245,0,0
+1662446699984,54,Register Device,201,Created,Thread Group 1-18,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,54,0,12
+1662446700041,441,CreateAccount,201,Created,Thread Group 1-18,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,441,0,0
+1662446700482,242,Get Requested OTP1,200,OK,Thread Group 1-18,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,242,0,0
+1662446700725,11,VerifyOTP,201,Created,Thread Group 1-18,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446700737,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-18,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446700739,15,Get Requested OTP2,200,OK,Thread Group 1-18,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,15,0,11
+1662446700756,247,ResetOTP,200,OK,Thread Group 1-18,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,247,0,0
+1662446704998,19,Register Device,201,Created,Thread Group 1-19,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,11
+1662446705018,433,CreateAccount,201,Created,Thread Group 1-19,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,433,0,0
+1662446705452,251,Get Requested OTP1,200,OK,Thread Group 1-19,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,251,0,0
+1662446705705,13,VerifyOTP,201,Created,Thread Group 1-19,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1662446705718,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-19,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446705720,242,Get Requested OTP2,200,OK,Thread Group 1-19,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,242,0,11
+1662446705963,64,ResetOTP,200,OK,Thread Group 1-19,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,64,0,0
+1662446709992,22,Register Device,201,Created,Thread Group 1-20,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,22,0,17
+1662446710016,395,CreateAccount,201,Created,Thread Group 1-20,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,395,0,0
+1662446710412,250,Get Requested OTP1,200,OK,Thread Group 1-20,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,250,0,0
+1662446710664,10,VerifyOTP,201,Created,Thread Group 1-20,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1662446710674,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-20,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446710677,13,Get Requested OTP2,200,OK,Thread Group 1-20,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13,0,9
+1662446710691,250,ResetOTP,200,OK,Thread Group 1-20,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,250,0,0
+1662446714975,16,Register Device,201,Created,Thread Group 1-21,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1662446714993,387,CreateAccount,201,Created,Thread Group 1-21,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,387,0,0
+1662446715380,252,Get Requested OTP1,200,OK,Thread Group 1-21,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,252,0,0
+1662446715633,12,VerifyOTP,201,Created,Thread Group 1-21,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446715646,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-21,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446715648,15,Get Requested OTP2,200,OK,Thread Group 1-21,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,15,0,9
+1662446715664,240,ResetOTP,200,OK,Thread Group 1-21,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,240,0,0
+1662446719974,19,Register Device,201,Created,Thread Group 1-22,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,19,0,13
+1662446719995,630,CreateAccount,201,Created,Thread Group 1-22,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,630,0,0
+1662446720625,254,Get Requested OTP1,200,OK,Thread Group 1-22,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,254,0,0
+1662446720880,13,VerifyOTP,201,Created,Thread Group 1-22,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1662446720894,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-22,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446720896,13,Get Requested OTP2,200,OK,Thread Group 1-22,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13,0,9
+1662446720910,247,ResetOTP,200,OK,Thread Group 1-22,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,247,0,0
+1662446724972,16,Register Device,201,Created,Thread Group 1-23,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1662446724990,350,CreateAccount,201,Created,Thread Group 1-23,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,350,0,0
+1662446725341,242,Get Requested OTP1,200,OK,Thread Group 1-23,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,242,0,0
+1662446725584,14,VerifyOTP,201,Created,Thread Group 1-23,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,14,0,0
+1662446725599,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-23,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446725601,25,Get Requested OTP2,200,OK,Thread Group 1-23,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,25,0,9
+1662446725627,233,ResetOTP,200,OK,Thread Group 1-23,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,233,0,0
+1662446729975,16,Register Device,201,Created,Thread Group 1-24,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,11
+1662446729992,437,CreateAccount,201,Created,Thread Group 1-24,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,437,0,0
+1662446730430,337,Get Requested OTP1,200,OK,Thread Group 1-24,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,337,0,0
+1662446730768,11,VerifyOTP,201,Created,Thread Group 1-24,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446730779,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-24,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446730782,13,Get Requested OTP2,200,OK,Thread Group 1-24,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13,0,9
+1662446730796,294,ResetOTP,200,OK,Thread Group 1-24,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,294,0,0
+1662446734971,16,Register Device,201,Created,Thread Group 1-25,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1662446734988,570,CreateAccount,201,Created,Thread Group 1-25,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,570,0,0
+1662446735559,259,Get Requested OTP1,200,OK,Thread Group 1-25,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,259,0,0
+1662446735819,12,VerifyOTP,201,Created,Thread Group 1-25,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446735831,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-25,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446735833,13,Get Requested OTP2,200,OK,Thread Group 1-25,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13,0,9
+1662446735847,264,ResetOTP,200,OK,Thread Group 1-25,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,264,0,0
+1662446739971,15,Register Device,201,Created,Thread Group 1-26,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,15,0,10
+1662446739988,444,CreateAccount,201,Created,Thread Group 1-26,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,444,0,0
+1662446740433,254,Get Requested OTP1,200,OK,Thread Group 1-26,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,254,0,0
+1662446740689,13,VerifyOTP,201,Created,Thread Group 1-26,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,13,0,0
+1662446740703,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-26,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446740710,18,Get Requested OTP2,200,OK,Thread Group 1-26,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,18,0,13
+1662446740729,235,ResetOTP,200,OK,Thread Group 1-26,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,235,0,0
+1662446744973,15,Register Device,201,Created,Thread Group 1-27,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,15,0,9
+1662446744989,509,CreateAccount,201,Created,Thread Group 1-27,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,509,0,0
+1662446745498,249,Get Requested OTP1,200,OK,Thread Group 1-27,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,249,0,0
+1662446745749,12,VerifyOTP,201,Created,Thread Group 1-27,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11,0,0
+1662446745761,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-27,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446745763,15,Get Requested OTP2,200,OK,Thread Group 1-27,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,15,0,11
+1662446745784,230,ResetOTP,200,OK,Thread Group 1-27,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,230,0,0
+1662446749983,15,Register Device,201,Created,Thread Group 1-28,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,15,0,9
+1662446749999,370,CreateAccount,201,Created,Thread Group 1-28,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,370,0,0
+1662446750370,270,Get Requested OTP1,200,OK,Thread Group 1-28,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,270,0,0
+1662446750641,12,VerifyOTP,201,Created,Thread Group 1-28,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446750653,2,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-28,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446750655,14,Get Requested OTP2,200,OK,Thread Group 1-28,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,14,0,9
+1662446750670,237,ResetOTP,200,OK,Thread Group 1-28,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,237,0,0
+1662446754982,16,Register Device,201,Created,Thread Group 1-29,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,16,0,10
+1662446754999,417,CreateAccount,201,Created,Thread Group 1-29,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,417,0,0
+1662446755416,267,Get Requested OTP1,200,OK,Thread Group 1-29,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,267,0,0
+1662446755684,12,VerifyOTP,201,Created,Thread Group 1-29,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12,0,0
+1662446755697,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-29,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446755699,16,Get Requested OTP2,200,OK,Thread Group 1-29,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,16,0,11
+1662446755716,292,ResetOTP,200,OK,Thread Group 1-29,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,292,0,0
+1662446759997,31,Register Device,201,Created,Thread Group 1-30,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,31,0,22
+1662446760030,453,CreateAccount,201,Created,Thread Group 1-30,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,453,0,0
+1662446760483,245,Get Requested OTP1,200,OK,Thread Group 1-30,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,245,0,0
+1662446760729,10,VerifyOTP,201,Created,Thread Group 1-30,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10,0,0
+1662446760739,1,Init V2,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/ubuntu/LoadTesting/accountflow/C:\b2b\logo.png (No such file or directory),Thread Group 1-30,text,false,Test failed: code expected to contain /201/,2555,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,0,0,0
+1662446760741,13,Get Requested OTP2,200,OK,Thread Group 1-30,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13,0,9
+1662446760756,264,ResetOTP,200,OK,Thread Group 1-30,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,264,0,0
