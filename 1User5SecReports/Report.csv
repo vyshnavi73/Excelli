@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1662531714179,368,RegisterDevice,201,Created,Thread Group 1-1,text,true,,524,483,1,1,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,368,0,348
+1662531716597,653,login,200,OK,Thread Group 1-1,text,true,,754,656,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/login,653,0,0
+1662531719255,230,createStory,200,OK,Thread Group 1-1,text,true,,3203,3787,1,1,https://social.bigsuperapp.com/social/api/v1/stories,230,0,29
+1662531721493,488,getStory,200,OK,Thread Group 1-1,text,true,,3640,680,1,1,https://social.bigsuperapp.com/story?id=612b2b1a-2e75-11ed-bf20-0a58a9feac02&u=2395a362-1a33-11ed-bd97-0a58a9feac02,488,0,0
+1662531723984,481,story,200,OK,Thread Group 1-1,text,true,,3640,680,1,1,https://social.bigsuperapp.com/story?id=612b2b1a-2e75-11ed-bf20-0a58a9feac02&u=2395a362-1a33-11ed-bd97-0a58a9feac02,481,0,0
+1662531726466,951,findPlace,200,OK,Thread Group 1-1,text,true,,252,634,1,1,https://social.bigsuperapp.com/social/api/v1/users/stories/find/india,951,0,0
+1662531729418,523,userStories,200,OK,Thread Group 1-1,text,true,,7236,699,1,1,https://social.bigsuperapp.com/social/api/v1/users/2395a362-1a33-11ed-bd97-0a58a9feac02/stories?u=2395a362-1a33-11ed-bd97-0a58a9feac02,523,0,0
+1662531731942,539,storyDetails,200,OK,Thread Group 1-1,text,true,,3640,680,1,1,https://social.bigsuperapp.com/story?id=612b2b1a-2e75-11ed-bf20-0a58a9feac02&u=2395a362-1a33-11ed-bd97-0a58a9feac02,539,0,0
+1662531734484,143,AllStoriesByAUser,200,OK,Thread Group 1-1,text,true,,252,699,1,1,https://social.bigsuperapp.com/social/api/v1/users/04c3fb5c-1f9f-11ed-9c5c-0a58a9feac02/stories?u=2395a362-1a33-11ed-bd97-0a58a9feac02,143,0,0
+1662531736628,197,StoryViews,200,OK,Thread Group 1-1,text,true,,271,749,1,1,https://social.bigsuperapp.com/social/api/v1/users/stories/612b2b1a-2e75-11ed-bf20-0a58a9feac02/views,197,0,0
+1662531738826,167,Get Feed on Story V1,200,OK,Thread Group 1-1,text,true,,275,668,1,1,https://social.bigsuperapp.com/social/api/v1/feed/stories?story_id=612b2b1a-2e75-11ed-bf20-0a58a9feac02,167,0,0
+1662531740993,193,Get Feed on Story V2,200,OK,Thread Group 1-1,text,true,,275,668,1,1,https://social.bigsuperapp.com/social/api/v2/feed/stories?story_id=612b2b1a-2e75-11ed-bf20-0a58a9feac02,192,0,0
+1662531743186,197,List All the Recent Stories for the user V1,200,OK,Thread Group 1-1,text,true,,275,624,1,1,https://social.bigsuperapp.com/social/api/v1/stories/recent,197,0,0
+1662531745383,187,List all the Recent Stories for User V2,200,OK,Thread Group 1-1,text,true,,275,624,1,1,https://social.bigsuperapp.com/social/api/v3/stories/recent,187,0,0
+1662531747571,166,List All the Explore Feed for the user v1,200,OK,Thread Group 1-1,text,true,,262,660,1,1,https://social.bigsuperapp.com/social/api/v1/users/2395a362-1a33-11ed-bd97-0a58a9feac02/gallery,166,0,0
+1662531749738,174,List all the Explore feed for the user V2,200,OK,Thread Group 1-1,text,true,,275,660,1,1,https://social.bigsuperapp.com/social/api/v2/users/2395a362-1a33-11ed-bd97-0a58a9feac02/gallery,174,0,0
+1662531751913,219,List all the flicks feed for a user V1,200,OK,Thread Group 1-1,text,true,,6209,621,1,1,https://social.bigsuperapp.com/social/api/v1/feed/flicks,219,0,0
+1662531754134,174,List all the Flicks feed for a user V2,200,OK,Thread Group 1-1,text,true,,287,621,1,1,https://social.bigsuperapp.com/social/api/v2/feed/flicks,174,0,0
+1662531756309,140,delete story,200,OK,Thread Group 1-1,text,true,,3691,740,1,1,https://social.bigsuperapp.com/social/api/v1/stories/612b2b1a-2e75-11ed-bf20-0a58a9feac02,140,0,0
