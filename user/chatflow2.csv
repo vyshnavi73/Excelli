@@ -1,0 +1,171 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664361145266,263,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,263,0,225
+1664361145099,426,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,426,0,401
+1664361145051,474,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,474,0,443
+1664361145051,473,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,473,0,448
+1664361145361,163,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,163,0,136
+1664361145167,357,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,357,0,328
+1664361145480,2445,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,2445,0,42
+1664361145560,2378,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,2378,0,27
+1664361145750,2198,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,2198,0,19
+1664361145659,2306,RegisterDevices API,201,Created,parallel bzm - Parallel Controller,text,true,,524,483,1,10,https://accounts.bigsuperapp.com//accounts/api/v1/accounts,2306,0,23
+1664361147613,4290,Login  API l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4290,0,0
+1664361147607,4328,Login  API l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4328,0,0
+1664361147614,4326,Login  API l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4326,0,0
+1664361147613,4329,Login  API l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4329,0,0
+1664361147615,4329,Login  API l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4329,0,0
+1664361151937,121,Connect Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361151943,119,Connect Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361151941,122,Connect Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361151945,120,Connect Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361151910,156,Connect Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361152063,28,Log-In Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152059,34,Log-In Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152065,29,Log-In Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152063,34,Log-In Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152066,32,Log-In Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361147614,4485,Login  API l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,4485,0,0
+1664361152101,10,Connect Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361152111,12,Log-In Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152092,81,Get Contacts List Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,206,0,1,10,null,0,0,0
+1664361152176,1,Set Presence Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152094,153,Get Contacts List Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,378,0,1,10,null,0,0,0
+1664361152249,0,Set Presence Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152098,369,Get Contacts List Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,1802,0,1,10,null,0,0,0
+1664361152469,0,Set Presence Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152093,432,Get Contacts List Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,343,0,1,10,null,0,0,0
+1664361152527,0,Set Presence Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152098,930,Get Contacts List Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,6209,0,1,10,null,0,0,0
+1664361153030,0,Set Presence Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361152124,975,Get Contacts List Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,317,0,1,10,null,0,0,0
+1664361153100,0,Set Presence Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153178,2,Send Message Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153249,0,Send Message Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153469,0,Send Message Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153528,0,Send Message Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361149941,3690,Login  API l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,3689,0,0
+1664361153633,8,Connect Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361153642,7,Log-In Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153649,66,Get Contacts List Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,267,0,1,10,null,0,0,0
+1664361153716,0,Set Presence Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361149967,3889,Login  API l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,3889,0,0
+1664361149950,3909,Login  API l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,3909,0,0
+1664361149928,3931,Login  API l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,754,656,1,10,https://accounts.bigsuperapp.com/accounts/api/v1/login,3931,0,0
+1664361153859,12,Connect Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361153861,14,Connect Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361153862,13,Connect Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,16,0,1,10,null,0,0,0
+1664361153871,10,Log-In Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153876,7,Log-In Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153875,9,Log-In Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153882,55,Get Contacts List Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,206,0,1,10,null,0,0,0
+1664361153938,0,Set Presence Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153883,96,Get Contacts List Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,206,0,1,10,null,0,0,0
+1664361153980,0,Set Presence Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361154030,0,Send Message Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361154101,0,Send Message Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361153884,316,Get Contacts List Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,439,0,1,10,null,0,0,0
+1664361154200,0,Set Presence Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361154718,1,Send Message Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361154939,0,Send Message Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361154980,0,Send Message Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361155200,1,Send Message Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361168235,1,Collect Packages Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,1323,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-0,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,156,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-1,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,36,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-2,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,558,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-3,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-4,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,10,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555207-5,200,OK,org.apache.jmeter.threads.JMeterThread@5c5ce3ff - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,10,null,0,0,0
+1664361168237,2,Disconnect Sampler l1o1adtrial555207,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,10,null,0,0,0
+1664361168250,0,Collect Packages Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,1587,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-0,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,156,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-1,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,36,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-2,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,822,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-3,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-4,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,9,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555204-5,200,OK,org.apache.jmeter.threads.JMeterThread@6285f54d - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,9,null,0,0,0
+1664361168251,0,Disconnect Sampler l1o1adtrial555204,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,9,null,0,0,0
+1664361168470,5,Collect Packages Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,5863,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-0,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,156,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-1,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,36,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-2,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,2950,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-3,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-4,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-5,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-6,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-7,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-8,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-9,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-10,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-11,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-12,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-13,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-14,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-15,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,8,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555203-16,200,OK,org.apache.jmeter.threads.JMeterThread@463efa81 - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,8,null,0,0,0
+1664361168476,1,Disconnect Sampler l1o1adtrial555203,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,8,null,0,0,0
+1664361168528,1,Collect Packages Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,1981,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-0,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,156,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-1,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,36,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-2,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,750,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-3,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,329,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-4,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-5,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-6,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,7,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555206-7,200,OK,org.apache.jmeter.threads.JMeterThread@2cc85104 - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,7,null,0,0,0
+1664361168529,2,Disconnect Sampler l1o1adtrial555206,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,7,null,0,0,0
+1664361169031,4,Collect Packages Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,11120,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-0,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,156,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-1,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,36,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-2,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,8470,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-3,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,329,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-4,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,329,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-5,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-6,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-7,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-8,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-9,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,231,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-10,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-11,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-12,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,6,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555202-13,200,OK,org.apache.jmeter.threads.JMeterThread@5476f76d - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,6,null,0,0,0
+1664361169036,1,Disconnect Sampler l1o1adtrial555202,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,6,null,0,0,0
+1664361169101,1,Collect Packages Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,1432,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-0,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,157,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-1,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,37,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-2,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,718,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-3,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-4,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,5,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555205-5,200,OK,org.apache.jmeter.threads.JMeterThread@758247b2 - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,5,null,0,0,0
+1664361169102,1,Disconnect Sampler l1o1adtrial555205,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,5,null,0,0,0
+1664361169719,0,Collect Packages Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,1198,0,1,4,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555210-0,200,OK,org.apache.jmeter.threads.JMeterThread@4d833ab9 - bzm - Parallel Controller - Simple Controller,,true,,157,0,1,4,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555210-1,200,OK,org.apache.jmeter.threads.JMeterThread@4d833ab9 - bzm - Parallel Controller - Simple Controller,,true,,37,0,1,4,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555210-2,200,OK,org.apache.jmeter.threads.JMeterThread@4d833ab9 - bzm - Parallel Controller - Simple Controller,,true,,662,0,1,4,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555210-3,200,OK,org.apache.jmeter.threads.JMeterThread@4d833ab9 - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,4,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555210-4,200,OK,org.apache.jmeter.threads.JMeterThread@4d833ab9 - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,4,null,0,0,0
+1664361169720,0,Disconnect Sampler l1o1adtrial555210,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,4,null,0,0,0
+1664361169939,0,Collect Packages Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,1094,0,1,3,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555211-0,200,OK,org.apache.jmeter.threads.JMeterThread@583b85aa - bzm - Parallel Controller - Simple Controller,,true,,157,0,1,3,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555211-1,200,OK,org.apache.jmeter.threads.JMeterThread@583b85aa - bzm - Parallel Controller - Simple Controller,,true,,37,0,1,3,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555211-2,200,OK,org.apache.jmeter.threads.JMeterThread@583b85aa - bzm - Parallel Controller - Simple Controller,,true,,558,0,1,3,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555211-3,200,OK,org.apache.jmeter.threads.JMeterThread@583b85aa - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,3,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555211-4,200,OK,org.apache.jmeter.threads.JMeterThread@583b85aa - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,3,null,0,0,0
+1664361169940,0,Disconnect Sampler l1o1adtrial555211,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,3,null,0,0,0
+1664361169981,0,Collect Packages Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,1094,0,1,2,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555209-0,200,OK,org.apache.jmeter.threads.JMeterThread@26facdcd - bzm - Parallel Controller - Simple Controller,,true,,157,0,1,2,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555209-1,200,OK,org.apache.jmeter.threads.JMeterThread@26facdcd - bzm - Parallel Controller - Simple Controller,,true,,37,0,1,2,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555209-2,200,OK,org.apache.jmeter.threads.JMeterThread@26facdcd - bzm - Parallel Controller - Simple Controller,,true,,558,0,1,2,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555209-3,200,OK,org.apache.jmeter.threads.JMeterThread@26facdcd - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,2,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555209-4,200,OK,org.apache.jmeter.threads.JMeterThread@26facdcd - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,2,null,0,0,0
+1664361169981,1,Disconnect Sampler l1o1adtrial555209,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,2,null,0,0,0
+1664361170201,1,Collect Packages Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,2131,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-0,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,157,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-1,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,37,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-2,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,910,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-3,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,329,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-4,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,190,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-5,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,152,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-6,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,1,null,0,0,0
+0,0,Collect Packages Sampler l1o1adtrial555212-7,200,OK,org.apache.jmeter.threads.JMeterThread@674ca1ff - bzm - Parallel Controller - Simple Controller,,true,,178,0,1,1,null,0,0,0
+1664361170202,7,Disconnect Sampler l1o1adtrial555212,200,OK,parallel bzm - Parallel Controller,text,true,,0,0,1,1,null,0,0,0
