@@ -1,91 +1,451 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1664348861104,469,Register Device,201,Created,Thread Group 1-1,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,466,0,452
-1664348861630,420,CreateAccount,201,Created,Thread Group 1-1,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,420,0,0
-1664348862051,268,Get Requested OTP1,200,OK,Thread Group 1-1,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,268,0,0
-1664348862324,62,VerifyOTP,201,Created,Thread Group 1-1,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,62,0,0
-1664348865978,59,Register Device,201,Created,Thread Group 1-2,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,59,0,27
-1664348862389,4765,Init V2,201,Created,Thread Group 1-1,text,true,,277,0,2,2,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4764,0,0
-1664348867154,51,Get Requested OTP2,200,OK,Thread Group 1-1,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,51,0,0
-1664348866048,1419,CreateAccount,201,Created,Thread Group 1-2,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,1419,0,0
-1664348867467,244,Get Requested OTP1,200,OK,Thread Group 1-2,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
-1664348867715,78,VerifyOTP,201,Created,Thread Group 1-2,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,78,0,0
-1664348867709,1035,EmailVerify,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /201/,331,612,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1035,0,0
-1664348868748,1458,UserName,200,OK,Thread Group 1-1,text,true,,319,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1458,0,0
-1664348870207,218,ResetOTP,200,OK,Thread Group 1-1,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,218,0,0
-1664348867794,2995,Init V2,201,Created,Thread Group 1-2,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,2995,0,0
-1664348870989,27,Register Device,201,Created,Thread Group 1-3,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,27,0,18
-1664348870790,246,Get Requested OTP2,200,OK,Thread Group 1-2,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,246,0,0
-1664348871019,482,CreateAccount,201,Created,Thread Group 1-3,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,482,0,0
-1664348871501,237,Get Requested OTP1,200,OK,Thread Group 1-3,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,237,0,0
-1664348871741,19,VerifyOTP,201,Created,Thread Group 1-3,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,19,0,0
-1664348871538,433,EmailVerify,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /201/,331,612,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,433,0,0
-1664348871973,1449,UserName,200,OK,Thread Group 1-2,text,true,,319,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1449,0,0
-1664348873423,299,ResetOTP,200,OK,Thread Group 1-2,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,299,0,0
-1664348871761,2397,Init V2,201,Created,Thread Group 1-3,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,2397,0,0
-1664348874159,22,Get Requested OTP2,200,OK,Thread Group 1-3,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,22,0,0
-1664348874683,1034,EmailVerify,422,Unprocessable Entity,Thread Group 1-3,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1034,0,0
-1664348875990,37,Register Device,201,Created,Thread Group 1-4,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,37,0,23
-1664348876032,810,CreateAccount,201,Created,Thread Group 1-4,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,809,0,0
-1664348876842,345,Get Requested OTP1,200,OK,Thread Group 1-4,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,345,0,0
-1664348877189,39,VerifyOTP,201,Created,Thread Group 1-4,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,39,0,0
-1664348875719,1605,UserName,200,OK,Thread Group 1-3,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1605,0,0
-1664348877325,107,ResetOTP,200,OK,Thread Group 1-3,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,106,0,0
-1664348877229,3076,Init V2,201,Created,Thread Group 1-4,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,3076,0,0
-1664348880308,62,Get Requested OTP2,200,OK,Thread Group 1-4,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,61,0,0
-1664348880974,29,Register Device,201,Created,Thread Group 1-5,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,29,0,17
-1664348880871,712,EmailVerify,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,331,612,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,712,0,0
-1664348881014,793,CreateAccount,201,Created,Thread Group 1-5,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,793,0,0
-1664348881809,244,Get Requested OTP1,200,OK,Thread Group 1-5,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,244,0,0
-1664348882054,19,VerifyOTP,201,Created,Thread Group 1-5,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,19,0,0
-1664348881586,1059,UserName,200,OK,Thread Group 1-4,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1059,0,0
-1664348882646,228,ResetOTP,200,OK,Thread Group 1-4,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,228,0,0
-1664348882074,2058,Init V2,201,Created,Thread Group 1-5,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,2058,0,0
-1664348884133,248,Get Requested OTP2,200,OK,Thread Group 1-5,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,248,0,0
-1664348884883,618,EmailVerify,422,Unprocessable Entity,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,618,0,0
-1664348885962,32,Register Device,201,Created,Thread Group 1-6,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,32,0,21
-1664348885995,726,CreateAccount,201,Created,Thread Group 1-6,text,true,,277,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,726,0,0
-1664348885503,1430,UserName,200,OK,Thread Group 1-5,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1430,0,0
-1664348886722,304,Get Requested OTP1,200,OK,Thread Group 1-6,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,304,0,0
-1664348887028,38,VerifyOTP,201,Created,Thread Group 1-6,text,true,,277,608,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,38,0,0
-1664348886934,416,ResetOTP,200,OK,Thread Group 1-5,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,416,0,0
-1664348887067,2140,Init V2,201,Created,Thread Group 1-6,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,2140,0,0
-1664348889207,301,Get Requested OTP2,200,OK,Thread Group 1-6,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,301,0,0
-1664348890010,566,EmailVerify,422,Unprocessable Entity,Thread Group 1-6,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,566,0,0
-1664348890947,26,Register Device,201,Created,Thread Group 1-7,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,26,0,18
-1664348890975,714,CreateAccount,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,327,664,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/register,714,0,0
-1664348891689,21,Get Requested OTP1,200,OK,Thread Group 1-7,text,true,,263,523,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,0
-1664348891712,150,VerifyOTP,502,Bad Gateway,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,277,604,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/verify,150,0,0
-1664348890577,1292,UserName,200,OK,Thread Group 1-6,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1292,0,0
-1664348891869,265,ResetOTP,200,OK,Thread Group 1-6,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,265,0,0
-1664348891862,1053,Init V2,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,343,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1053,0,0
-1664348892917,22,Get Requested OTP2,200,OK,Thread Group 1-7,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21,0,0
-1664348893440,10,EmailVerify,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,327,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,10,0,0
-1664348893451,1203,UserName,200,OK,Thread Group 1-7,text,true,,317,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1203,0,0
-1664348894654,222,ResetOTP,200,OK,Thread Group 1-7,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,222,0,0
-1664348895945,25,Register Device,201,Created,Thread Group 1-8,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,25,0,18
-1664348895973,426,CreateAccount,201,Created,Thread Group 1-8,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,426,0,0
-1664348896398,270,Get Requested OTP1,200,OK,Thread Group 1-8,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,270,0,0
-1664348896670,16,VerifyOTP,201,Created,Thread Group 1-8,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,16,0,0
-1664348896686,1885,Init V2,201,Created,Thread Group 1-8,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1885,0,0
-1664348898572,29,Get Requested OTP2,200,OK,Thread Group 1-8,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,29,0,0
-1664348899103,931,EmailVerify,422,Unprocessable Entity,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,931,0,0
-1664348900036,992,UserName,200,OK,Thread Group 1-8,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,992,0,0
-1664348900952,73,Register Device,201,Created,Thread Group 1-9,text,true,,524,525,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,73,0,17
-1664348901028,353,ResetOTP,200,OK,Thread Group 1-8,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,353,0,0
-1664348901034,401,CreateAccount,201,Created,Thread Group 1-9,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,401,0,0
-1664348901435,261,Get Requested OTP1,200,OK,Thread Group 1-9,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,261,0,0
-1664348901698,17,VerifyOTP,201,Created,Thread Group 1-9,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
-1664348901715,1563,Init V2,201,Created,Thread Group 1-9,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1563,0,0
-1664348903279,32,Get Requested OTP2,200,OK,Thread Group 1-9,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,32,0,0
-1664348903812,373,EmailVerify,422,Unprocessable Entity,Thread Group 1-9,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,373,0,0
-1664348904187,910,UserName,200,OK,Thread Group 1-9,text,true,,317,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,910,0,0
-1664348905098,218,ResetOTP,200,OK,Thread Group 1-9,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,218,0,0
-1664348905960,24,Register Device,201,Created,Thread Group 1-10,text,true,,524,525,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,24,0,17
-1664348905989,431,CreateAccount,201,Created,Thread Group 1-10,text,true,,277,664,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/register,431,0,0
-1664348906422,258,Get Requested OTP1,200,OK,Thread Group 1-10,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,258,0,0
-1664348906682,17,VerifyOTP,201,Created,Thread Group 1-10,text,true,,277,608,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/verify,17,0,0
-1664348906699,1772,Init V2,201,Created,Thread Group 1-10,text,true,,277,0,1,1,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1772,0,0
-1664348908472,261,Get Requested OTP2,200,OK,Thread Group 1-10,text,true,,263,523,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/otp,260,0,0
-1664348909234,453,EmailVerify,422,Unprocessable Entity,Thread Group 1-10,text,false,Test failed: code expected to contain /201/,331,612,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,453,0,0
-1664348909689,946,UserName,200,OK,Thread Group 1-10,text,true,,317,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,946,0,0
-1664348910637,216,ResetOTP,200,OK,Thread Group 1-10,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,216,0,0
+1664367960947,382,Register Device,201,Created,Thread Group 1-9,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,377,0,361
+1664367960992,342,Register Device,201,Created,Thread Group 1-10,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,342,0,311
+1664367960650,682,Register Device,201,Created,Thread Group 1-4,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,672,0,655
+1664367960880,450,Register Device,201,Created,Thread Group 1-8,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,442,0,423
+1664367960828,507,Register Device,201,Created,Thread Group 1-7,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,506,0,481
+1664367960556,772,Register Device,201,Created,Thread Group 1-2,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,767,0,752
+1664367961258,74,Register Device,201,Created,Thread Group 1-12,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,74,0,53
+1664367961087,242,Register Device,201,Created,Thread Group 1-11,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,238,0,220
+1664367960761,571,Register Device,201,Created,Thread Group 1-6,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,571,0,547
+1664367960699,630,Register Device,201,Created,Thread Group 1-5,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,628,0,608
+1664367960556,777,Register Device,201,Created,Thread Group 1-1,text,true,,524,525,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,777,0,756
+1664367961396,111,Register Device,201,Created,Thread Group 1-14,text,true,,524,525,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,111,0,91
+1664367961508,36,Register Device,201,Created,Thread Group 1-15,text,true,,524,525,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,36,0,23
+1664367961540,66,Register Device,201,Created,Thread Group 1-16,text,true,,524,525,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,66,0,35
+1664367961577,67,Register Device,201,Created,Thread Group 1-17,text,true,,524,525,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,67,0,35
+1664367961625,56,Register Device,201,Created,Thread Group 1-18,text,true,,524,525,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,56,0,42
+1664367961640,53,Register Device,201,Created,Thread Group 1-19,text,true,,524,525,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,53,0,27
+1664367961680,65,Register Device,201,Created,Thread Group 1-20,text,true,,524,525,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,65,0,35
+1664367961762,39,Register Device,201,Created,Thread Group 1-22,text,true,,524,525,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,39,0,33
+1664367961845,71,Register Device,201,Created,Thread Group 1-25,text,true,,524,525,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,70,0,24
+1664367962230,78,Register Device,201,Created,Thread Group 1-37,text,true,,524,525,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,78,0,25
+1664367962261,60,Register Device,201,Created,Thread Group 1-38,text,true,,524,525,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,60,0,26
+1664367962345,68,Register Device,201,Created,Thread Group 1-41,text,true,,524,525,42,42,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,68,0,21
+1664367962550,96,Register Device,201,Created,Thread Group 1-47,text,true,,524,525,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,96,0,21
+1664367961780,928,Register Device,201,Created,Thread Group 1-23,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,928,0,25
+1664367961824,888,Register Device,201,Created,Thread Group 1-24,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,888,0,22
+1664367961939,781,Register Device,201,Created,Thread Group 1-28,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,781,0,17
+1664367962065,657,Register Device,201,Created,Thread Group 1-32,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,657,0,23
+1664367962015,710,Register Device,201,Created,Thread Group 1-30,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,709,0,21
+1664367961900,830,Register Device,201,Created,Thread Group 1-27,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,829,0,34
+1664367962310,420,Register Device,201,Created,Thread Group 1-40,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,420,0,25
+1664367962038,694,Register Device,201,Created,Thread Group 1-31,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,694,0,17
+1664367962200,534,Register Device,201,Created,Thread Group 1-36,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,534,0,24
+1664367961724,1011,Register Device,201,Created,Thread Group 1-21,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,1011,0,27
+1664367962276,461,Register Device,201,Created,Thread Group 1-39,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,461,0,30
+1664367962096,643,Register Device,201,Created,Thread Group 1-33,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,643,0,17
+1664367962387,353,Register Device,201,Created,Thread Group 1-42,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,353,0,16
+1664367962480,268,Register Device,201,Created,Thread Group 1-45,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,268,0,23
+1664367962578,172,Register Device,201,Created,Thread Group 1-48,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,172,0,21
+1664367961980,782,Register Device,201,Created,Thread Group 1-29,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,782,0,14
+1664367962415,349,Register Device,201,Created,Thread Group 1-43,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,349,0,27
+1664367962140,665,Register Device,201,Created,Thread Group 1-34,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,665,0,21
+1664367962507,301,Register Device,201,Created,Thread Group 1-46,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,301,0,20
+1664367962650,168,Register Device,201,Created,Thread Group 1-50,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,168,0,12
+1664367962178,657,Register Device,201,Created,Thread Group 1-35,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,657,0,20
+1664367962456,393,Register Device,201,Created,Thread Group 1-44,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,393,0,20
+1664367962617,1093,Register Device,201,Created,Thread Group 1-49,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,1093,0,25
+1664367961924,3307,CreateAccount,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,3306,0,0
+1664367961458,4637,CreateAccount,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,315,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,4637,0,0
+1664367965232,863,Get Requested OTP1,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /200/,315,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,863,0,0
+1664367966097,20,VerifyOTP,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /201/,315,604,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20,0,0
+1664367966095,78,Get Requested OTP1,200,OK,Thread Group 1-4,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,78,0,0
+1664367961480,6238,CreateAccount,201,Created,Thread Group 1-1,text,false,"The operation lasted too long: It took 6,238 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,6238,0,0
+1664367966120,4746,Init V2,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /201/,343,0,50,50,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4746,0,0
+1664367970869,34,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /200/,315,534,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,34,0,0
+1664367971407,8,EmailVerify,422,Unprocessable Entity,Thread Group 1-25,text,false,Test failed: code expected to contain /201/,327,608,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,8,0,0
+1664367971417,1158,UserName,200,OK,Thread Group 1-25,text,true,,317,551,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1158,0,0
+1664367960566,13863,Register Device,201,Created,Thread Group 1-3,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,13863,0,748
+1664367961315,13139,Register Device,201,Created,Thread Group 1-13,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,13139,0,47
+1664367961459,13016,CreateAccount,422,Unprocessable Entity,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13016,0,0
+1664367961460,13021,CreateAccount,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,315,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13021,0,0
+1664367974481,53,Get Requested OTP1,200,OK,Thread Group 1-7,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,53,0,0
+1664367974475,64,Get Requested OTP1,200,OK,Thread Group 1-8,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,64,0,0
+1664367961463,13086,CreateAccount,201,Created,Thread Group 1-12,text,false,"The operation lasted too long: It took 13,086 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13086,0,0
+1664367961468,13170,CreateAccount,201,Created,Thread Group 1-9,text,false,"The operation lasted too long: It took 13,170 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13170,0,0
+1664367961461,13302,CreateAccount,201,Created,Thread Group 1-2,text,false,"The operation lasted too long: It took 13,302 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13302,0,0
+1664367961457,13416,CreateAccount,201,Created,Thread Group 1-10,text,false,"The operation lasted too long: It took 13,416 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13416,0,0
+1664367961476,13448,CreateAccount,422,Unprocessable Entity,Thread Group 1-11,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13448,0,0
+1664367961478,13457,CreateAccount,422,Unprocessable Entity,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13457,0,0
+1664367974924,46,Get Requested OTP1,200,OK,Thread Group 1-11,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,46,0,0
+1664367974934,42,Get Requested OTP1,200,OK,Thread Group 1-5,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,42,0,0
+1664367961478,13524,CreateAccount,422,Unprocessable Entity,Thread Group 1-6,text,false,Test failed: code expected to contain /201/,305,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,13524,0,0
+1664367975002,53,Get Requested OTP1,200,OK,Thread Group 1-6,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,53,0,0
+1664367974430,677,CreateAccount,201,Created,Thread Group 1-3,text,true,,277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,677,0,0
+1664367974454,1010,CreateAccount,201,Created,Thread Group 1-13,text,true,,277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,1010,0,0
+1664367961508,14597,CreateAccount,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,14597,0,0
+1664367976105,33,Get Requested OTP1,200,OK,Thread Group 1-14,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,33,0,0
+1664367961546,14686,CreateAccount,201,Created,Thread Group 1-15,text,false,"The operation lasted too long: It took 14,686 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,14686,0,0
+1664367961620,14904,CreateAccount,201,Created,Thread Group 1-16,text,false,"The operation lasted too long: It took 14,904 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,14904,0,0
+1664367961650,15024,CreateAccount,201,Created,Thread Group 1-17,text,false,"The operation lasted too long: It took 15,024 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,15024,0,0
+1664367961688,15154,CreateAccount,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,15154,0,0
+1664367976842,34,Get Requested OTP1,200,OK,Thread Group 1-18,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,34,0,0
+1664367961695,15189,CreateAccount,422,Unprocessable Entity,Thread Group 1-19,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,15189,0,0
+1664367976883,39,Get Requested OTP1,200,OK,Thread Group 1-19,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,39,0,0
+1664367961750,15415,CreateAccount,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,15415,0,0
+1664367977164,29,Get Requested OTP1,200,OK,Thread Group 1-20,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,29,0,0
+1664367961811,15509,CreateAccount,422,Unprocessable Entity,Thread Group 1-22,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,15509,0,0
+1664367977320,31,Get Requested OTP1,200,OK,Thread Group 1-22,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,30,0,0
+1664367961886,15829,Register Device,201,Created,Thread Group 1-26,text,true,,524,525,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/accounts,15829,0,35
+1664367962310,16380,CreateAccount,422,Unprocessable Entity,Thread Group 1-37,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,16380,0,0
+1664367978689,30,Get Requested OTP1,200,OK,Thread Group 1-37,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,30,0,0
+1664367962323,16498,CreateAccount,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,16498,0,0
+1664367978821,39,Get Requested OTP1,200,OK,Thread Group 1-38,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,39,0,0
+1664367962419,16720,CreateAccount,201,Created,Thread Group 1-41,text,false,"The operation lasted too long: It took 16,720 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,16720,0,0
+1664367962648,17211,CreateAccount,201,Created,Thread Group 1-47,text,false,"The operation lasted too long: It took 17,211 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17211,0,0
+1664367962709,17361,CreateAccount,201,Created,Thread Group 1-23,text,false,"The operation lasted too long: It took 17,361 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17361,0,0
+1664367962713,17366,CreateAccount,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17366,0,0
+1664367980079,54,Get Requested OTP1,200,OK,Thread Group 1-24,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,54,0,0
+1664367962721,17426,CreateAccount,201,Created,Thread Group 1-28,text,false,"The operation lasted too long: It took 17,426 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17426,0,0
+1664367962723,17461,CreateAccount,201,Created,Thread Group 1-32,text,false,"The operation lasted too long: It took 17,461 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17461,0,0
+1664367962725,17504,CreateAccount,201,Created,Thread Group 1-30,text,false,"The operation lasted too long: It took 17,504 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17504,0,0
+1664367962731,17503,CreateAccount,201,Created,Thread Group 1-27,text,false,"The operation lasted too long: It took 17,503 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17503,0,0
+1664367962738,17506,CreateAccount,201,Created,Thread Group 1-39,text,false,"The operation lasted too long: It took 17,506 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17506,0,0
+1664367962731,17519,CreateAccount,422,Unprocessable Entity,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17519,0,0
+1664367962733,17523,CreateAccount,201,Created,Thread Group 1-31,text,false,"The operation lasted too long: It took 17,523 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17523,0,0
+1664367962736,17527,CreateAccount,201,Created,Thread Group 1-21,text,false,"The operation lasted too long: It took 17,527 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17527,0,0
+1664367962735,17535,CreateAccount,201,Created,Thread Group 1-36,text,false,"The operation lasted too long: It took 17,535 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17535,0,0
+1664367962740,17540,CreateAccount,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17540,0,0
+1664367962742,17549,CreateAccount,422,Unprocessable Entity,Thread Group 1-42,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17549,0,0
+1664367977716,2581,CreateAccount,201,Created,Thread Group 1-26,text,false,"The operation lasted too long: It took 2,581 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,2581,0,0
+1664367962749,17559,CreateAccount,201,Created,Thread Group 1-45,text,false,"The operation lasted too long: It took 17,559 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17559,0,0
+1664367962751,17563,CreateAccount,422,Unprocessable Entity,Thread Group 1-48,text,false,Test failed: code expected to contain /201/,332,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17563,0,0
+1664367962763,17560,CreateAccount,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,332,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17560,0,0
+1664367962765,17571,CreateAccount,201,Created,Thread Group 1-43,text,false,"The operation lasted too long: It took 17,571 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17571,0,0
+1664367962807,17574,CreateAccount,201,Created,Thread Group 1-34,text,false,"The operation lasted too long: It took 17,574 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17574,0,0
+1664367962809,17585,CreateAccount,422,Unprocessable Entity,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,322,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17585,0,0
+1664367962819,17582,CreateAccount,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /201/,332,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17581,0,0
+1664367962836,17577,CreateAccount,201,Created,Thread Group 1-35,text,false,"The operation lasted too long: It took 17,577 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17577,0,0
+1664367962851,17902,CreateAccount,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /201/,305,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,17902,0,0
+1664367980291,1153,Get Requested OTP1,200,OK,Thread Group 1-42,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1153,0,0
+1664367980250,1194,Get Requested OTP1,200,OK,Thread Group 1-40,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1194,0,0
+1664367980323,1131,Get Requested OTP1,200,OK,Thread Group 1-29,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1131,0,0
+1664367980279,1175,Get Requested OTP1,200,OK,Thread Group 1-33,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1175,0,0
+1664367980314,1142,Get Requested OTP1,200,OK,Thread Group 1-48,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1142,0,0
+1664367980400,1075,Get Requested OTP1,200,OK,Thread Group 1-50,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1075,0,0
+1664367980394,1081,Get Requested OTP1,200,OK,Thread Group 1-46,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,1081,0,0
+1664367980752,862,Get Requested OTP1,200,OK,Thread Group 1-44,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,862,0,0
+1664367963711,18540,CreateAccount,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /201/,315,664,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/register,18540,0,0
+1664367982252,35,Get Requested OTP1,200,OK,Thread Group 1-49,text,true,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,35,0,0
+1664367966175,20488,VerifyOTP,502,Bad Gateway,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,277,604,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20488,0,0
+1664367986664,1160,Init V2,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,343,0,50,50,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1160,0,0
+1664367987825,34,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /200/,315,534,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,34,0,0
+1664367988361,9,EmailVerify,422,Unprocessable Entity,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,327,608,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,9,0,0
+1664367974549,13881,Get Requested OTP1,200,OK,Thread Group 1-12,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13881,0,0
+1664367974873,13645,Get Requested OTP1,200,OK,Thread Group 1-10,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13645,0,0
+1664367976674,11849,Get Requested OTP1,200,OK,Thread Group 1-17,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11849,0,0
+1664367976231,12491,Get Requested OTP1,200,OK,Thread Group 1-15,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,12491,0,0
+1664367967719,21018,Get Requested OTP1,200,OK,Thread Group 1-1,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21018,0,0
+1664367974763,13998,Get Requested OTP1,200,OK,Thread Group 1-2,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,13998,0,0
+1664367974637,14141,Get Requested OTP1,200,OK,Thread Group 1-9,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,14140,0,0
+1664367988738,92,VerifyOTP,201,Created,Thread Group 1-1,text,true,,277,608,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/verify,92,0,0
+1664367976524,12686,Get Requested OTP1,200,OK,Thread Group 1-16,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,12686,0,0
+1664367980147,9069,Get Requested OTP1,200,OK,Thread Group 1-28,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,9069,0,0
+1664367979139,10094,Get Requested OTP1,200,OK,Thread Group 1-41,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,10094,0,0
+1664367988371,1003,UserName,200,OK,Thread Group 1-4,text,true,,317,551,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1003,0,0
+1664367980335,9263,Get Requested OTP1,200,OK,Thread Group 1-43,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,9263,0,0
+1664367980255,9399,Get Requested OTP1,200,OK,Thread Group 1-31,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,9399,0,0
+1664367980262,9536,Get Requested OTP1,200,OK,Thread Group 1-21,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,9536,0,0
+1664367979859,11416,Get Requested OTP1,200,OK,Thread Group 1-47,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11416,0,0
+1664367980307,10977,Get Requested OTP1,200,OK,Thread Group 1-45,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,10977,0,0
+1664367980228,11093,Get Requested OTP1,200,OK,Thread Group 1-30,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11093,0,0
+1664367980413,10916,Get Requested OTP1,200,OK,Thread Group 1-35,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,10916,0,0
+1664367980269,11078,Get Requested OTP1,200,OK,Thread Group 1-36,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11078,0,0
+1664367980069,11293,Get Requested OTP1,200,OK,Thread Group 1-23,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11293,0,0
+1664367980243,11231,Get Requested OTP1,200,OK,Thread Group 1-39,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11231,0,0
+1664367980234,11346,Get Requested OTP1,200,OK,Thread Group 1-27,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11346,0,0
+1664367980381,11317,Get Requested OTP1,200,OK,Thread Group 1-34,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11317,0,0
+1664367980184,11666,Get Requested OTP1,200,OK,Thread Group 1-32,text,false,,263,523,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/otp,11665,0,0
+1664367972576,21788,ResetOTP,200,OK,Thread Group 1-25,text,true,,263,529,50,50,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,21787,0,0
+1664367988432,8073,VerifyOTP,201,Created,Thread Group 1-12,text,false,"The operation lasted too long: It took 8,073 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,8073,0,0
+1664367988780,7845,VerifyOTP,201,Created,Thread Group 1-9,text,false,"The operation lasted too long: It took 7,845 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,7845,0,0
+1664367988763,7974,VerifyOTP,201,Created,Thread Group 1-2,text,false,"The operation lasted too long: It took 7,974 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,7974,0,0
+1664367988520,8247,VerifyOTP,201,Created,Thread Group 1-10,text,false,"The operation lasted too long: It took 8,247 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,8247,0,0
+1664367975057,21749,VerifyOTP,201,Created,Thread Group 1-6,text,false,"The operation lasted too long: It took 21,749 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21748,0,0
+1664367974536,22276,VerifyOTP,502,Bad Gateway,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,22276,0,0
+1664367974540,22281,VerifyOTP,502,Bad Gateway,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,22281,0,0
+1664367975108,21728,Get Requested OTP1,200,OK,Thread Group 1-3,text,false,,263,523,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21728,0,0
+1664367996838,115,VerifyOTP,201,Created,Thread Group 1-3,text,true,,277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,115,0,0
+1664367974972,22102,VerifyOTP,502,Bad Gateway,Thread Group 1-11,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,22102,0,0
+1664367974978,22103,VerifyOTP,502,Bad Gateway,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,22103,0,0
+1664367975465,21815,Get Requested OTP1,200,OK,Thread Group 1-13,text,false,,263,523,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/otp,21815,0,0
+1664367997283,60,VerifyOTP,201,Created,Thread Group 1-13,text,true,,277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,60,0,0
+1664367988724,9086,VerifyOTP,201,Created,Thread Group 1-15,text,false,"The operation lasted too long: It took 9,086 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9086,0,0
+1664367976140,21858,VerifyOTP,502,Bad Gateway,Thread Group 1-14,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21858,0,0
+1664367989600,8450,VerifyOTP,201,Created,Thread Group 1-43,text,false,"The operation lasted too long: It took 8,450 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,8450,0,0
+1664367988525,9704,VerifyOTP,201,Created,Thread Group 1-17,text,false,"The operation lasted too long: It took 9,704 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9704,0,0
+1664367976877,21628,VerifyOTP,502,Bad Gateway,Thread Group 1-18,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21628,0,0
+1664367976924,21603,VerifyOTP,502,Bad Gateway,Thread Group 1-19,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21603,0,0
+1664367977195,21602,VerifyOTP,502,Bad Gateway,Thread Group 1-20,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21602,0,0
+1664367977352,21597,VerifyOTP,502,Bad Gateway,Thread Group 1-22,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21597,0,0
+1664367980298,19203,Get Requested OTP1,200,OK,Thread Group 1-26,text,false,,263,523,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/otp,19203,0,0
+1664367978721,21298,VerifyOTP,502,Bad Gateway,Thread Group 1-37,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21298,0,0
+1664367978861,21312,VerifyOTP,502,Bad Gateway,Thread Group 1-38,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,21312,0,0
+1664367989235,10957,VerifyOTP,201,Created,Thread Group 1-41,text,false,"The operation lasted too long: It took 10,957 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10957,0,0
+1664367991364,9446,VerifyOTP,201,Created,Thread Group 1-23,text,false,"The operation lasted too long: It took 9,446 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9446,0,0
+1664367989218,11613,VerifyOTP,201,Created,Thread Group 1-28,text,false,"The operation lasted too long: It took 11,613 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11613,0,0
+1664367991852,9035,VerifyOTP,201,Created,Thread Group 1-32,text,false,"The operation lasted too long: It took 9,035 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,9035,0,0
+1664367980135,20942,VerifyOTP,502,Bad Gateway,Thread Group 1-24,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20942,0,0
+1664367996813,4434,Init V2,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,343,0,49,49,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4434,0,0
+1664368001247,53,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,315,534,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,53,0,0
+1664367991278,10364,VerifyOTP,201,Created,Thread Group 1-47,text,false,"The operation lasted too long: It took 10,364 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10364,0,0
+1664367989656,12012,VerifyOTP,201,Created,Thread Group 1-31,text,false,"The operation lasted too long: It took 12,012 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,12012,0,0
+1664367991286,10391,VerifyOTP,201,Created,Thread Group 1-45,text,false,"The operation lasted too long: It took 10,391 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10391,0,0
+1664367991349,10349,VerifyOTP,201,Created,Thread Group 1-36,text,false,"The operation lasted too long: It took 10,349 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10349,0,0
+1664367991324,10394,VerifyOTP,201,Created,Thread Group 1-30,text,false,"The operation lasted too long: It took 10,394 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10394,0,0
+1664367989800,11951,VerifyOTP,201,Created,Thread Group 1-21,text,false,"The operation lasted too long: It took 11,951 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,11951,0,0
+1664367991477,10283,VerifyOTP,201,Created,Thread Group 1-39,text,false,"The operation lasted too long: It took 10,283 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10283,0,0
+1664367991331,10435,VerifyOTP,201,Created,Thread Group 1-35,text,false,"The operation lasted too long: It took 10,435 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10435,0,0
+1664367991701,10071,VerifyOTP,201,Created,Thread Group 1-34,text,false,"The operation lasted too long: It took 10,071 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10071,0,0
+1664367991582,10201,VerifyOTP,201,Created,Thread Group 1-27,text,false,"The operation lasted too long: It took 10,201 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,10201,0,0
+1664367981446,20490,VerifyOTP,502,Bad Gateway,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20490,0,0
+1664367981446,20512,VerifyOTP,502,Bad Gateway,Thread Group 1-42,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20512,0,0
+1664367981455,20511,VerifyOTP,502,Bad Gateway,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20511,0,0
+1664367981457,20515,VerifyOTP,502,Bad Gateway,Thread Group 1-48,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20515,0,0
+1664367981455,20518,VerifyOTP,502,Bad Gateway,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20518,0,0
+1664367981476,20497,VerifyOTP,502,Bad Gateway,Thread Group 1-50,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20497,0,0
+1664367981476,20510,VerifyOTP,502,Bad Gateway,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20510,0,0
+1664367981615,20527,VerifyOTP,502,Bad Gateway,Thread Group 1-44,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20527,0,0
+1664367982289,20136,VerifyOTP,502,Bad Gateway,Thread Group 1-49,text,false,Test failed: code expected to contain /201/,277,604,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,20136,0,0
+1664367997076,5896,Init V2,422,Unprocessable Entity,Thread Group 1-11,text,false,Test failed: code expected to contain /201/,343,0,49,49,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,5896,0,0
+1664368002972,34,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-11,text,false,Test failed: code expected to contain /200/,315,534,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,34,0,0
+1664368003508,255,EmailVerify,422,Unprocessable Entity,Thread Group 1-11,text,false,Test failed: code expected to contain /201/,327,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,255,0,0
+1664367989212,15803,VerifyOTP,201,Created,Thread Group 1-16,text,false,"The operation lasted too long: It took 15,803 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/verify,15803,0,0
+1664367989375,15851,ResetOTP,200,OK,Thread Group 1-4,text,true,,263,529,49,49,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,15851,0,0
+1664367999504,5793,VerifyOTP,201,Created,Thread Group 1-26,text,false,"The operation lasted too long: It took 5,793 milliseconds, but should not have lasted longer than 2,000 milliseconds.",277,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/verify,5793,0,0
+1664368001802,3981,EmailVerify,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,327,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,3981,0,0
+1664367998230,8125,Init V2,422,Unprocessable Entity,Thread Group 1-17,text,false,Test failed: code expected to contain /201/,332,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,8125,0,0
+1664367996767,9590,Init V2,422,Unprocessable Entity,Thread Group 1-10,text,false,Test failed: code expected to contain /201/,332,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,9590,0,0
+1664367997083,9274,Init V2,422,Unprocessable Entity,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,332,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,9274,0,0
+1664368001765,4593,Init V2,422,Unprocessable Entity,Thread Group 1-35,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4593,0,0
+1664368001936,4423,Init V2,422,Unprocessable Entity,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4422,0,0
+1664367996954,9407,Init V2,422,Unprocessable Entity,Thread Group 1-3,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,9407,0,0
+1664368001718,4642,Init V2,422,Unprocessable Entity,Thread Group 1-30,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4642,0,0
+1664368005015,1348,Init V2,422,Unprocessable Entity,Thread Group 1-16,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,1348,0,0
+1664368000887,5478,Init V2,422,Unprocessable Entity,Thread Group 1-32,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,5478,0,0
+1664368001642,4725,Init V2,422,Unprocessable Entity,Thread Group 1-47,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4725,0,0
+1664368001783,4582,Init V2,422,Unprocessable Entity,Thread Group 1-27,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,4582,0,0
+1664367998506,7921,Init V2,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /201/,310,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,7921,0,0
+1664368006366,100,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-32,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,100,0,0
+1664368006427,47,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,46,0,0
+1664368006360,189,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-3,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,189,0,0
+1664368006357,207,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-5,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,207,0,0
+1664368006359,257,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-35,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,257,0,0
+1664368006367,379,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-47,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,379,0,0
+1664368006975,13,EmailVerify,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /201/,315,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,13,0,0
+1664368006989,16,UserName,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,315,551,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,16,0,0
+1664368007248,23,EmailVerify,422,Unprocessable Entity,Thread Group 1-47,text,false,Test failed: code expected to contain /201/,327,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,23,0,0
+1664367996807,10496,Init V2,201,Created,Thread Group 1-6,text,true,,277,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10494,0,0
+1664368007302,73,Get Requested OTP2,200,OK,Thread Group 1-6,text,true,,263,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,73,0,0
+1664368005296,2498,Init V2,422,Unprocessable Entity,Thread Group 1-26,text,false,Test failed: code expected to contain /201/,332,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,2498,0,0
+1664368001698,6098,Init V2,422,Unprocessable Entity,Thread Group 1-36,text,false,Test failed: code expected to contain /201/,332,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,6098,0,0
+1664368007051,745,EmailVerify,422,Unprocessable Entity,Thread Group 1-3,text,false,Test failed: code expected to contain /201/,332,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,745,0,0
+1664368000809,6989,Init V2,422,Unprocessable Entity,Thread Group 1-23,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,6989,0,0
+1664368007118,681,EmailVerify,422,Unprocessable Entity,Thread Group 1-35,text,false,Test failed: code expected to contain /201/,315,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,681,0,0
+1664367997343,10458,Init V2,422,Unprocessable Entity,Thread Group 1-13,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10458,0,0
+1664368006357,1444,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-10,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1444,0,0
+1664368006355,1451,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-17,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1451,0,0
+1664368005785,2022,UserName,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,315,551,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2022,0,0
+1664368006359,1448,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-40,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1448,0,0
+1664368001759,6050,Init V2,422,Unprocessable Entity,Thread Group 1-39,text,false,Test failed: code expected to contain /201/,315,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,6050,0,0
+1664367997811,10000,Init V2,422,Unprocessable Entity,Thread Group 1-15,text,false,Test failed: code expected to contain /201/,323,0,48,48,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10000,0,0
+1664368006368,1444,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,315,534,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1444,0,0
+1664368007005,807,ResetOTP,422,Unprocessable Entity,Thread Group 1-18,text,false,Test failed: code expected to contain /200/,315,529,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,807,0,0
+1664368006967,846,EmailVerify,422,Unprocessable Entity,Thread Group 1-32,text,false,Test failed: code expected to contain /201/,315,608,48,48,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,846,0,0
+1664368007066,749,EmailVerify,422,Unprocessable Entity,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,315,608,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,749,0,0
+1664368006364,1451,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-16,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1451,0,0
+1664368006361,1455,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-30,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1455,0,0
+1664368002426,5397,Init V2,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /201/,310,0,47,47,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,5397,0,0
+1664368007824,16,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,16,0,0
+1664368001750,6147,Init V2,422,Unprocessable Entity,Thread Group 1-21,text,false,Test failed: code expected to contain /201/,310,0,47,47,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,6147,0,0
+1664368007798,146,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-23,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,145,0,0
+1664368007898,199,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,199,0,0
+1664368007800,299,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-13,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,299,0,0
+1664368007811,288,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,288,0,0
+1664368000175,7955,Init V2,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /201/,323,0,47,47,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,7955,0,0
+1664367997999,10131,Init V2,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /201/,323,0,47,47,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10131,0,0
+1664368007809,321,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-39,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,321,0,0
+1664368007807,323,ResetOTP,422,Unprocessable Entity,Thread Group 1-7,text,false,Test failed: code expected to contain /200/,315,529,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,323,0,0
+1664368007795,336,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-26,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,336,0,0
+1664367996625,11508,Init V2,422,Unprocessable Entity,Thread Group 1-9,text,false,Test failed: code expected to contain /201/,315,0,46,46,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,11508,0,0
+1664367998050,10084,Init V2,422,Unprocessable Entity,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,315,0,46,46,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10083,0,0
+1664367996506,11629,Init V2,422,Unprocessable Entity,Thread Group 1-12,text,false,Test failed: code expected to contain /201/,315,0,46,46,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,11629,0,0
+1664368007796,333,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-36,text,false,Test failed: code expected to contain /200/,315,534,47,47,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,333,0,0
+1664368008133,34,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-43,text,false,Test failed: code expected to contain /200/,315,534,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,33,0,0
+1664368008135,153,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-12,text,false,Test failed: code expected to contain /200/,315,534,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,153,0,0
+1664368008130,166,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,315,534,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,166,0,0
+1664368008133,170,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-9,text,false,Test failed: code expected to contain /200/,315,534,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,170,0,0
+1664368008302,15,EmailVerify,422,Unprocessable Entity,Thread Group 1-10,text,false,Test failed: code expected to contain /201/,327,608,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,14,0,0
+1664368008307,11,EmailVerify,422,Unprocessable Entity,Thread Group 1-17,text,false,Test failed: code expected to contain /201/,327,608,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,11,0,0
+1664368008342,5,EmailVerify,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /201/,315,608,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,5,0,0
+1664368008348,57,UserName,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,315,551,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,57,0,0
+1664368008406,10,ResetOTP,422,Unprocessable Entity,Thread Group 1-49,text,false,Test failed: code expected to contain /200/,315,529,46,46,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,10,0,0
+1664368008600,19,EmailVerify,422,Unprocessable Entity,Thread Group 1-15,text,false,Test failed: code expected to contain /201/,327,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,19,0,0
+1664368008631,2103,EmailVerify,422,Unprocessable Entity,Thread Group 1-39,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2103,0,0
+1664368008668,2066,EmailVerify,422,Unprocessable Entity,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2066,0,0
+1664368008599,2137,EmailVerify,422,Unprocessable Entity,Thread Group 1-21,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2137,0,0
+1664368008445,2292,EmailVerify,422,Unprocessable Entity,Thread Group 1-23,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2292,0,0
+1664368008789,1950,EmailVerify,422,Unprocessable Entity,Thread Group 1-12,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1950,0,0
+1664368008600,2140,EmailVerify,422,Unprocessable Entity,Thread Group 1-13,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2140,0,0
+1664368001973,8768,Init V2,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,323,0,45,45,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,8768,0,0
+1664367998529,12213,Init V2,422,Unprocessable Entity,Thread Group 1-19,text,false,Test failed: code expected to contain /201/,315,0,45,45,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,12213,0,0
+1664368001966,8782,Init V2,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,323,0,45,45,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,8782,0,0
+1664368008308,2440,EmailVerify,422,Unprocessable Entity,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,332,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2440,0,0
+1664368008797,1952,EmailVerify,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /201/,327,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1952,0,0
+1664368001972,8778,Init V2,422,Unprocessable Entity,Thread Group 1-48,text,false,Test failed: code expected to contain /201/,323,0,45,45,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,8778,0,0
+1664368008620,2131,UserName,422,Unprocessable Entity,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,315,551,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2131,0,0
+1664368008313,2439,EmailVerify,422,Unprocessable Entity,Thread Group 1-27,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2439,0,0
+1664368008636,2117,EmailVerify,422,Unprocessable Entity,Thread Group 1-36,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2117,0,0
+1664368008632,2122,EmailVerify,422,Unprocessable Entity,Thread Group 1-26,text,false,Test failed: code expected to contain /201/,315,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2122,0,0
+1664368008133,2621,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,315,534,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,2621,0,0
+1664368008317,2434,EmailVerify,422,Unprocessable Entity,Thread Group 1-30,text,false,Test failed: code expected to contain /201/,327,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2434,0,0
+1664368008804,1946,EmailVerify,422,Unprocessable Entity,Thread Group 1-9,text,false,Test failed: code expected to contain /201/,327,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1946,0,0
+1664368008316,2434,EmailVerify,422,Unprocessable Entity,Thread Group 1-16,text,false,Test failed: code expected to contain /201/,327,608,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2434,0,0
+1664367996737,14040,Init V2,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /201/,310,0,45,45,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,14040,0,0
+1664368010743,93,UserName,422,Unprocessable Entity,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,315,551,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,93,0,0
+1664368010783,90,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,315,534,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,90,0,0
+1664368010837,67,ResetOTP,422,Unprocessable Entity,Thread Group 1-21,text,false,Test failed: code expected to contain /200/,315,529,45,45,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,67,0,0
+1664368010751,179,UserName,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,315,551,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,179,0,0
+1664368010753,177,UserName,422,Unprocessable Entity,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,315,551,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,177,0,0
+1664368010752,179,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-48,text,false,Test failed: code expected to contain /200/,315,534,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,179,0,0
+1664368010743,277,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,315,534,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,277,0,0
+1664368010743,279,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-19,text,false,Test failed: code expected to contain /200/,315,534,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,279,0,0
+1664368010931,297,ResetOTP,422,Unprocessable Entity,Thread Group 1-27,text,false,Test failed: code expected to contain /200/,315,529,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,297,0,0
+1664368001078,10149,Init V2,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /201/,323,0,44,44,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10149,0,0
+1664368010749,480,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,315,534,44,44,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,480,0,0
+1664368011230,27,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,315,534,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,27,0,0
+1664368000831,10887,Init V2,422,Unprocessable Entity,Thread Group 1-28,text,false,Test failed: code expected to contain /201/,323,0,43,43,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,10887,0,0
+1664367998798,12922,Init V2,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /201/,315,0,43,43,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,12922,0,0
+1664368011432,288,EmailVerify,422,Unprocessable Entity,Thread Group 1-48,text,false,Test failed: code expected to contain /201/,315,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,288,0,0
+1664368011523,196,EmailVerify,422,Unprocessable Entity,Thread Group 1-19,text,false,Test failed: code expected to contain /201/,315,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,196,0,0
+1664368011522,200,EmailVerify,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,315,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,200,0,0
+1664368011256,2559,EmailVerify,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /201/,332,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2559,0,0
+1664368002143,11672,Init V2,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /201/,323,0,43,43,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,11672,0,0
+1664368001973,11843,Init V2,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /201/,323,0,43,43,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,11843,0,0
+1664367996823,16994,Init V2,422,Unprocessable Entity,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,323,0,43,43,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,16994,0,0
+1664368011374,2444,EmailVerify,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /201/,315,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2444,0,0
+1664368010757,3062,ResetOTP,422,Unprocessable Entity,Thread Group 1-15,text,false,Test failed: code expected to contain /200/,315,529,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,3062,0,0
+1664368011720,2099,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,315,534,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,2099,0,0
+1664367988831,24990,Init V2,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /201/,323,0,42,42,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,24990,0,0
+1664368011723,2098,UserName,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,315,551,42,42,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2098,0,0
+1664367998950,14872,Init V2,422,Unprocessable Entity,Thread Group 1-22,text,false,Test failed: code expected to contain /201/,315,0,42,42,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,14872,0,0
+1664368010931,2887,ResetOTP,422,Unprocessable Entity,Thread Group 1-14,text,false,Test failed: code expected to contain /200/,315,529,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2887,0,0
+1664368011730,2084,EmailVerify,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,332,608,43,43,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2084,0,0
+1664368013819,136,UserName,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,315,551,41,41,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,136,0,0
+1664368013821,166,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,315,534,41,41,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,166,0,0
+1664368013824,612,UserName,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,315,551,41,41,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,612,0,0
+1664368013821,615,ResetOTP,422,Unprocessable Entity,Thread Group 1-33,text,false,Test failed: code expected to contain /200/,315,529,41,41,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,615,0,0
+1664368013822,615,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-22,text,false,Test failed: code expected to contain /200/,315,534,41,41,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,615,0,0
+1664368013818,620,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-8,text,false,Test failed: code expected to contain /200/,315,534,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,620,0,0
+1664368013816,623,UserName,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,315,551,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,623,0,0
+1664368011721,2717,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,315,534,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,2717,0,0
+1664368011758,2684,EmailVerify,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /201/,327,608,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2684,0,0
+1664368014488,151,EmailVerify,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /201/,315,608,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,151,0,0
+1664368014640,383,UserName,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,315,551,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,382,0,0
+1664368014436,586,ResetOTP,422,Unprocessable Entity,Thread Group 1-29,text,false,Test failed: code expected to contain /200/,315,529,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,586,0,0
+1664368013956,1068,ResetOTP,422,Unprocessable Entity,Thread Group 1-2,text,false,Test failed: code expected to contain /200/,315,529,39,39,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1068,0,0
+1664368014443,582,UserName,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,315,551,38,38,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,582,0,0
+1664368014320,706,EmailVerify,422,Unprocessable Entity,Thread Group 1-28,text,false,Test failed: code expected to contain /201/,315,608,38,38,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,706,0,0
+1664368014439,584,ResetOTP,422,Unprocessable Entity,Thread Group 1-38,text,false,Test failed: code expected to contain /200/,315,529,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,584,0,0
+1664368013817,1205,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,315,534,40,40,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1205,0,0
+1664368013816,1247,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,315,534,37,37,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,1247,0,0
+1664368014938,258,EmailVerify,422,Unprocessable Entity,Thread Group 1-22,text,false,Test failed: code expected to contain /201/,327,608,37,37,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,258,0,0
+1664368000192,16623,Init V2,422,Unprocessable Entity,Thread Group 1-41,text,false,Test failed: code expected to contain /201/,323,0,37,37,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,16623,0,0
+1664368015026,1788,ResetOTP,422,Unprocessable Entity,Thread Group 1-24,text,false,Test failed: code expected to contain /200/,315,529,37,37,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1788,0,0
+1664368015027,1790,UserName,422,Unprocessable Entity,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,315,551,36,36,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1790,0,0
+1664368014940,1877,EmailVerify,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /201/,332,608,36,36,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1877,0,0
+1664368000020,16797,Init V2,422,Unprocessable Entity,Thread Group 1-37,text,false,Test failed: code expected to contain /201/,315,0,36,36,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,16797,0,0
+1664368007876,8940,EmailVerify,422,Unprocessable Entity,Thread Group 1-6,text,false,Test failed: code expected to contain /201/,305,612,36,36,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,8940,0,0
+1664368001987,14828,Init V2,422,Unprocessable Entity,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,323,0,36,36,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,14828,0,0
+1664368015023,1793,ResetOTP,422,Unprocessable Entity,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,315,529,36,36,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,1791,0,0
+1664368015529,1410,EmailVerify,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /201/,327,608,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1410,0,0
+1664368014939,2000,EmailVerify,422,Unprocessable Entity,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,327,608,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,2000,0,0
+1664368015564,1378,EmailVerify,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /201/,327,608,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1378,0,0
+1664368016819,126,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-37,text,false,Test failed: code expected to contain /200/,315,534,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,126,0,0
+1664368016816,152,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-41,text,false,Test failed: code expected to contain /200/,315,534,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,152,0,0
+1664368016818,499,UserName,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,315,551,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,499,0,0
+1664368016820,497,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-46,text,false,Test failed: code expected to contain /200/,315,534,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,497,0,0
+1664368016819,499,UserName,422,Unprocessable Entity,Thread Group 1-6,text,false,Test failed: code expected to contain /200/,315,551,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,499,0,0
+1664368016941,377,UserName,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,315,551,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,377,0,0
+1664368016817,502,ResetOTP,422,Unprocessable Entity,Thread Group 1-28,text,false,Test failed: code expected to contain /200/,315,529,35,35,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,502,0,0
+1664368016943,377,UserName,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,315,551,34,34,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,377,0,0
+1664368017446,81,EmailVerify,422,Unprocessable Entity,Thread Group 1-37,text,false,Test failed: code expected to contain /201/,327,608,34,34,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,81,0,0
+1664368017317,218,ResetOTP,422,Unprocessable Entity,Thread Group 1-20,text,false,Test failed: code expected to contain /200/,315,529,34,34,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,218,0,0
+1664368017321,217,ResetOTP,422,Unprocessable Entity,Thread Group 1-44,text,false,Test failed: code expected to contain /200/,315,529,33,33,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,217,0,0
+1664368017318,225,ResetOTP,422,Unprocessable Entity,Thread Group 1-6,text,false,Test failed: code expected to contain /200/,315,529,32,32,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,225,0,0
+1664368017318,317,ResetOTP,422,Unprocessable Entity,Thread Group 1-50,text,false,Test failed: code expected to contain /200/,315,529,31,31,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,317,0,0
+1664368017469,169,EmailVerify,422,Unprocessable Entity,Thread Group 1-41,text,false,Test failed: code expected to contain /201/,327,608,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,169,0,0
+1664368017818,18,EmailVerify,422,Unprocessable Entity,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,327,608,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,17,0,0
+1664368007814,10133,UserName,200,OK,Thread Group 1-32,text,false,"The operation lasted too long: It took 10,133 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,10133,0,0
+1664368010737,7668,UserName,200,OK,Thread Group 1-43,text,false,"The operation lasted too long: It took 7,668 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,7668,0,0
+1664368017948,553,ResetOTP,200,OK,Thread Group 1-32,text,true,,263,529,30,30,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,553,0,0
+1664368018406,2013,ResetOTP,200,OK,Thread Group 1-43,text,true,,263,529,29,29,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,2013,0,0
+1664368007273,13212,UserName,200,OK,Thread Group 1-47,text,false,"The operation lasted too long: It took 13,212 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13212,0,0
+1664368008317,12413,UserName,200,OK,Thread Group 1-10,text,false,"The operation lasted too long: It took 12,413 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,12413,0,0
+1664368001958,18844,Init V2,422,Unprocessable Entity,Thread Group 1-42,text,false,Test failed: code expected to contain /201/,343,0,28,28,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,18844,0,0
+1664368020804,74,Get Requested OTP2,422,Unprocessable Entity,Thread Group 1-42,text,false,Test failed: code expected to contain /200/,315,534,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,73,0,0
+1664368020731,437,ResetOTP,200,OK,Thread Group 1-10,text,true,,263,529,28,28,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,437,0,0
+1664368021379,13,EmailVerify,422,Unprocessable Entity,Thread Group 1-42,text,false,Test failed: code expected to contain /201/,327,608,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,13,0,0
+1664368010740,10744,UserName,200,OK,Thread Group 1-12,text,false,"The operation lasted too long: It took 10,744 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,10744,0,0
+1664368010756,10844,UserName,200,OK,Thread Group 1-30,text,false,"The operation lasted too long: It took 10,844 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,10844,0,0
+1664368007800,14843,UserName,200,OK,Thread Group 1-35,text,false,"The operation lasted too long: It took 14,843 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,14843,0,0
+1664368003764,18918,UserName,200,OK,Thread Group 1-11,text,false,"The operation lasted too long: It took 18,918 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,18918,0,0
+1664368016941,6038,UserName,200,OK,Thread Group 1-8,text,false,"The operation lasted too long: It took 6,038 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,6038,0,0
+1664368007817,15246,UserName,200,OK,Thread Group 1-5,text,false,"The operation lasted too long: It took 15,246 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,15246,0,0
+1664368023065,181,ResetOTP,200,OK,Thread Group 1-5,text,true,,263,529,27,27,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,181,0,10
+1664368001667,21693,Init V2,201,Created,Thread Group 1-31,text,true,,277,0,26,26,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,21693,0,0
+1664368001772,21930,Init V2,201,Created,Thread Group 1-34,text,true,,277,0,26,26,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,21930,0,0
+1664368023704,127,Get Requested OTP2,200,OK,Thread Group 1-34,text,true,,263,534,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,127,0,10
+1664368011721,12381,UserName,200,OK,Thread Group 1-48,text,false,"The operation lasted too long: It took 12,381 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,12381,0,0
+1664368010756,13600,UserName,200,OK,Thread Group 1-26,text,false,"The operation lasted too long: It took 13,600 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13600,0,0
+1664368010737,13621,UserName,200,OK,Thread Group 1-39,text,false,"The operation lasted too long: It took 13,621 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13621,0,0
+1664368010757,13601,UserName,200,OK,Thread Group 1-9,text,false,"The operation lasted too long: It took 13,601 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13601,0,0
+1664368010755,13866,UserName,200,OK,Thread Group 1-36,text,false,"The operation lasted too long: It took 13,866 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13865,0,0
+1664368008319,16304,UserName,200,OK,Thread Group 1-17,text,false,"The operation lasted too long: It took 16,304 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,16304,0,0
+1664368010758,13940,UserName,200,OK,Thread Group 1-16,text,false,"The operation lasted too long: It took 13,940 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13940,0,0
+1664368010750,13954,UserName,200,OK,Thread Group 1-40,text,false,"The operation lasted too long: It took 13,954 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,13954,0,0
+1664368010742,14001,UserName,200,OK,Thread Group 1-13,text,false,"The operation lasted too long: It took 14,001 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,14001,0,0
+1664368010739,14057,UserName,200,OK,Thread Group 1-23,text,false,"The operation lasted too long: It took 14,057 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,14057,0,0
+1664368024744,88,ResetOTP,200,OK,Thread Group 1-13,text,true,,263,529,26,26,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,88,0,10
+1664368015197,10158,UserName,200,OK,Thread Group 1-22,text,false,"The operation lasted too long: It took 10,158 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,10158,0,0
+1664368007797,17591,UserName,200,OK,Thread Group 1-3,text,false,"The operation lasted too long: It took 17,591 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,17591,0,0
+1664368001676,23990,Init V2,201,Created,Thread Group 1-45,text,true,,277,0,25,25,https://accounts.bigsuperapp.com/accounts/api/v2/accounts/init,23990,0,0
+1664368017639,8518,UserName,200,OK,Thread Group 1-41,text,false,"The operation lasted too long: It took 8,518 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,8518,0,0
+1664368026157,36,ResetOTP,200,OK,Thread Group 1-41,text,true,,263,529,25,25,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,36,0,9
+1664368017837,8383,UserName,200,OK,Thread Group 1-46,text,false,"The operation lasted too long: It took 8,383 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,8383,0,0
+1664368011721,14647,UserName,200,OK,Thread Group 1-19,text,false,"The operation lasted too long: It took 14,647 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,14647,0,0
+1664368017528,9313,UserName,200,OK,Thread Group 1-37,text,false,"The operation lasted too long: It took 9,313 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,9313,0,0
+1664368026841,48,ResetOTP,200,OK,Thread Group 1-37,text,true,,263,529,24,24,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,48,0,12
+1664368021393,5827,UserName,200,OK,Thread Group 1-42,text,false,"The operation lasted too long: It took 5,827 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,5827,0,0
+1664368020487,13277,ResetOTP,502,Bad Gateway,Thread Group 1-47,text,false,Test failed: code expected to contain /200/,277,529,23,23,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13277,0,0
+1664368022979,12590,ResetOTP,200,OK,Thread Group 1-8,text,true,,263,529,22,22,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,12590,0,17
+1664368021484,14467,ResetOTP,502,Bad Gateway,Thread Group 1-12,text,false,Test failed: code expected to contain /200/,277,529,21,21,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14467,0,11
+1664368021601,14512,ResetOTP,200,OK,Thread Group 1-30,text,true,,263,529,20,20,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14512,0,0
+1664368022645,13838,ResetOTP,200,OK,Thread Group 1-35,text,true,,263,529,19,19,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13838,0,15
+1664368022684,13826,ResetOTP,200,OK,Thread Group 1-11,text,true,,263,529,18,18,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13826,0,10
+1664368024102,13335,ResetOTP,200,OK,Thread Group 1-48,text,true,,263,529,17,17,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13335,0,11
+1664368024624,12942,ResetOTP,200,OK,Thread Group 1-17,text,true,,263,529,16,16,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,12942,0,10
+1664368023361,14348,Get Requested OTP2,502,Bad Gateway,Thread Group 1-31,text,false,Test failed: code expected to contain /200/,277,534,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,14348,0,20
+1664368024358,13517,ResetOTP,200,OK,Thread Group 1-39,text,true,,263,529,15,15,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13517,0,18
+1664368024333,13766,EmailVerify,201,Created,Thread Group 1-34,text,true,,719,612,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,13766,0,0
+1664368024705,13771,ResetOTP,200,OK,Thread Group 1-40,text,true,,263,529,14,14,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13771,0,14
+1664368024359,14565,ResetOTP,200,OK,Thread Group 1-9,text,true,,263,529,13,13,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14565,0,17
+1664368024357,14574,ResetOTP,200,OK,Thread Group 1-26,text,true,,263,529,12,12,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14574,0,18
+1664368024621,14508,ResetOTP,200,OK,Thread Group 1-36,text,true,,263,529,11,11,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14508,0,14
+1664368024699,14444,ResetOTP,200,OK,Thread Group 1-16,text,true,,263,529,10,10,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14444,0,11
+1664368024797,14378,ResetOTP,200,OK,Thread Group 1-23,text,true,,263,529,9,9,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,14378,0,10
+1664368025390,13872,ResetOTP,502,Bad Gateway,Thread Group 1-3,text,false,Test failed: code expected to contain /200/,277,529,8,8,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13872,0,9
+1664368025356,13935,ResetOTP,200,OK,Thread Group 1-22,text,true,,263,529,7,7,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13935,0,9
+1664368025667,13725,Get Requested OTP2,200,OK,Thread Group 1-45,text,true,,263,534,6,6,https://accounts.bigsuperapp.com/accounts/api/v1/otp?type=email,13725,0,9
+1664368026220,13248,ResetOTP,200,OK,Thread Group 1-46,text,true,,263,529,6,6,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13248,0,9
+1664368026368,13122,ResetOTP,200,OK,Thread Group 1-19,text,true,,263,529,5,5,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,13122,0,9
+1664368027219,12364,ResetOTP,502,Bad Gateway,Thread Group 1-42,text,false,Test failed: code expected to contain /200/,277,529,4,4,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,12364,0,9
+1664368038209,1389,EmailVerify,422,Unprocessable Entity,Thread Group 1-31,text,false,Test failed: code expected to contain /201/,315,608,3,3,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1389,0,0
+1664368038099,2141,UserName,200,OK,Thread Group 1-34,text,false,"The operation lasted too long: It took 2,141 milliseconds, but should not have lasted longer than 2,000 milliseconds.",317,551,3,3,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,2141,0,0
+1664368040241,432,ResetOTP,200,OK,Thread Group 1-34,text,true,,263,529,3,3,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,432,0,0
+1664368039599,1804,UserName,200,OK,Thread Group 1-31,text,true,,317,551,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1804,0,0
+1664368039893,1620,EmailVerify,201,Created,Thread Group 1-45,text,true,,719,612,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/email/verify,1620,0,0
+1664368041404,670,ResetOTP,200,OK,Thread Group 1-31,text,true,,263,529,2,2,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,670,0,0
+1664368041515,1270,UserName,200,OK,Thread Group 1-45,text,true,,317,551,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/suggestions/username?name=sonia,1269,0,0
+1664368042785,404,ResetOTP,200,OK,Thread Group 1-45,text,true,,263,529,1,1,https://accounts.bigsuperapp.com/accounts/api/v1/reset_otp,404,0,0
